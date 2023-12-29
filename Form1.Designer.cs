@@ -35,14 +35,12 @@
             label3 = new Label();
             txtBoxKullAdı1 = new TextBox();
             txtBoxŞifre1 = new TextBox();
-            radioButKullınıcı1 = new RadioButton();
-            radButFsekreteri = new RadioButton();
-            button1 = new Button();
+            radioButKullanıcı1 = new RadioButton();
+            radioButFsekreteri1 = new RadioButton();
+            butOnayla1 = new Button();
             pictureBox2 = new PictureBox();
-            groupBox1 = new GroupBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -107,39 +105,39 @@
             txtBoxŞifre1.Size = new Size(140, 30);
             txtBoxŞifre1.TabIndex = 5;
             // 
-            // radioButKullınıcı1
+            // radioButKullanıcı1
             // 
-            radioButKullınıcı1.AutoSize = true;
-            radioButKullınıcı1.Location = new Point(121, 22);
-            radioButKullınıcı1.Name = "radioButKullınıcı1";
-            radioButKullınıcı1.Size = new Size(94, 19);
-            radioButKullınıcı1.TabIndex = 6;
-            radioButKullınıcı1.TabStop = true;
-            radioButKullınıcı1.Text = "radioButton1";
-            radioButKullınıcı1.UseVisualStyleBackColor = true;
+            radioButKullanıcı1.Location = new Point(393, 209);
+            radioButKullanıcı1.Name = "radioButKullanıcı1";
+            radioButKullanıcı1.Size = new Size(94, 19);
+            radioButKullanıcı1.TabIndex = 6;
+            radioButKullanıcı1.TabStop = true;
+            radioButKullanıcı1.Text = "Kullanıcı ";
+            radioButKullanıcı1.UseVisualStyleBackColor = true;
             // 
-            // radButFsekreteri
+            // radioButFsekreteri1
             // 
-            radButFsekreteri.AutoSize = true;
-            radButFsekreteri.Location = new Point(6, 22);
-            radButFsekreteri.Name = "radButFsekreteri";
-            radButFsekreteri.Size = new Size(110, 19);
-            radButFsekreteri.TabIndex = 7;
-            radButFsekreteri.TabStop = true;
-            radButFsekreteri.Text = "Fakülte sekreteri";
-            radButFsekreteri.UseVisualStyleBackColor = true;
+            radioButFsekreteri1.AutoSize = true;
+            radioButFsekreteri1.Location = new Point(256, 209);
+            radioButFsekreteri1.Name = "radioButFsekreteri1";
+            radioButFsekreteri1.Size = new Size(110, 19);
+            radioButFsekreteri1.TabIndex = 7;
+            radioButFsekreteri1.TabStop = true;
+            radioButFsekreteri1.Text = "Fakülte sekreteri";
+            radioButFsekreteri1.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // butOnayla1
             // 
-            button1.BackColor = SystemColors.GradientActiveCaption;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(283, 249);
-            button1.Name = "button1";
-            button1.Size = new Size(204, 39);
-            button1.TabIndex = 8;
-            button1.Text = "Onayla";
-            button1.UseVisualStyleBackColor = false;
+            butOnayla1.BackColor = SystemColors.GradientActiveCaption;
+            butOnayla1.FlatStyle = FlatStyle.Flat;
+            butOnayla1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butOnayla1.Location = new Point(283, 249);
+            butOnayla1.Name = "butOnayla1";
+            butOnayla1.Size = new Size(204, 39);
+            butOnayla1.TabIndex = 8;
+            butOnayla1.Text = "Onayla";
+            butOnayla1.UseVisualStyleBackColor = false;
+            butOnayla1.Click += butOnayla1_Click;
             // 
             // pictureBox2
             // 
@@ -151,25 +149,16 @@
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
             // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(radButFsekreteri);
-            groupBox1.Controls.Add(radioButKullınıcı1);
-            groupBox1.Location = new Point(229, 196);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(270, 47);
-            groupBox1.TabIndex = 10;
-            groupBox1.TabStop = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(786, 305);
-            Controls.Add(groupBox1);
+            Controls.Add(radioButKullanıcı1);
+            Controls.Add(radioButFsekreteri1);
             Controls.Add(pictureBox2);
-            Controls.Add(button1);
+            Controls.Add(butOnayla1);
             Controls.Add(txtBoxŞifre1);
             Controls.Add(txtBoxKullAdı1);
             Controls.Add(label3);
@@ -183,8 +172,6 @@
             Text = "Giriş";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -197,10 +184,9 @@
         private Label label3;
         private TextBox txtBoxKullAdı1;
         private TextBox txtBoxŞifre1;
-        private RadioButton radioButKullınıcı1;
-        private RadioButton radButFsekreteri;
-        private Button button1;
+        private RadioButton radioButKullanıcı1;
+        private RadioButton radioButFsekreteri1;
+        private Button butOnayla1;
         private PictureBox pictureBox2;
-        private GroupBox groupBox1;
     }
 }

@@ -31,8 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             label1 = new Label();
             butHesapBilgiGüncelle2 = new Button();
-            butEvrakişlemleri2 = new Button();
-            butKullişlemleri2 = new Button();
+            butDosyaTürleri2 = new Button();
+            butMemurişlemleri2 = new Button();
+            butGecikmisEmanetler2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -51,36 +52,50 @@
             butHesapBilgiGüncelle2.BackColor = SystemColors.GradientActiveCaption;
             butHesapBilgiGüncelle2.FlatStyle = FlatStyle.Flat;
             butHesapBilgiGüncelle2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butHesapBilgiGüncelle2.Location = new Point(269, 254);
+            butHesapBilgiGüncelle2.Location = new Point(111, 258);
             butHesapBilgiGüncelle2.Name = "butHesapBilgiGüncelle2";
             butHesapBilgiGüncelle2.Size = new Size(248, 96);
             butHesapBilgiGüncelle2.TabIndex = 9;
             butHesapBilgiGüncelle2.Text = "Hesap bilgilerimi güncelle";
             butHesapBilgiGüncelle2.UseVisualStyleBackColor = false;
             // 
-            // butEvrakişlemleri2
+            // butDosyaTürleri2
             // 
-            butEvrakişlemleri2.BackColor = SystemColors.GradientActiveCaption;
-            butEvrakişlemleri2.FlatStyle = FlatStyle.Flat;
-            butEvrakişlemleri2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butEvrakişlemleri2.Location = new Point(418, 119);
-            butEvrakişlemleri2.Name = "butEvrakişlemleri2";
-            butEvrakişlemleri2.Size = new Size(248, 96);
-            butEvrakişlemleri2.TabIndex = 10;
-            butEvrakişlemleri2.Text = "Evrak işlemleri";
-            butEvrakişlemleri2.UseVisualStyleBackColor = false;
+            butDosyaTürleri2.BackColor = SystemColors.GradientActiveCaption;
+            butDosyaTürleri2.FlatStyle = FlatStyle.Flat;
+            butDosyaTürleri2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butDosyaTürleri2.Location = new Point(418, 119);
+            butDosyaTürleri2.Name = "butDosyaTürleri2";
+            butDosyaTürleri2.Size = new Size(248, 96);
+            butDosyaTürleri2.TabIndex = 10;
+            butDosyaTürleri2.Text = "Arşive konulabilecek dosya türleri";
+            butDosyaTürleri2.UseVisualStyleBackColor = false;
+            butDosyaTürleri2.Click += butEvrakişlemleri2_Click;
             // 
-            // butKullişlemleri2
+            // butMemurişlemleri2
             // 
-            butKullişlemleri2.BackColor = SystemColors.GradientActiveCaption;
-            butKullişlemleri2.FlatStyle = FlatStyle.Flat;
-            butKullişlemleri2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butKullişlemleri2.Location = new Point(111, 119);
-            butKullişlemleri2.Name = "butKullişlemleri2";
-            butKullişlemleri2.Size = new Size(248, 96);
-            butKullişlemleri2.TabIndex = 11;
-            butKullişlemleri2.Text = "Kullanıcı işlemleri";
-            butKullişlemleri2.UseVisualStyleBackColor = false;
+            butMemurişlemleri2.BackColor = SystemColors.GradientActiveCaption;
+            butMemurişlemleri2.FlatStyle = FlatStyle.Flat;
+            butMemurişlemleri2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butMemurişlemleri2.Location = new Point(111, 119);
+            butMemurişlemleri2.Name = "butMemurişlemleri2";
+            butMemurişlemleri2.Size = new Size(248, 96);
+            butMemurişlemleri2.TabIndex = 11;
+            butMemurişlemleri2.Text = "Memur işlemleri";
+            butMemurişlemleri2.UseVisualStyleBackColor = false;
+            butMemurişlemleri2.Click += butKullişlemleri2_Click;
+            // 
+            // butGecikmisEmanetler2
+            // 
+            butGecikmisEmanetler2.BackColor = SystemColors.GradientActiveCaption;
+            butGecikmisEmanetler2.FlatStyle = FlatStyle.Flat;
+            butGecikmisEmanetler2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butGecikmisEmanetler2.Location = new Point(418, 258);
+            butGecikmisEmanetler2.Name = "butGecikmisEmanetler2";
+            butGecikmisEmanetler2.Size = new Size(248, 96);
+            butGecikmisEmanetler2.TabIndex = 12;
+            butGecikmisEmanetler2.Text = "Gecikmiş emanetler";
+            butGecikmisEmanetler2.UseVisualStyleBackColor = false;
             // 
             // Form2
             // 
@@ -88,13 +103,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
-            Controls.Add(butKullişlemleri2);
-            Controls.Add(butEvrakişlemleri2);
+            Controls.Add(butGecikmisEmanetler2);
+            Controls.Add(butMemurişlemleri2);
+            Controls.Add(butDosyaTürleri2);
             Controls.Add(butHesapBilgiGüncelle2);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Fakülte sekreteri";
+            Load += Form2_Load;
             ResumeLayout(false);
         }
 
@@ -102,7 +120,8 @@
 
         private Label label1;
         private Button butHesapBilgiGüncelle2;
-        private Button butEvrakişlemleri2;
-        private Button butKullişlemleri2;
+        private Button butDosyaTürleri2;
+        private Button butMemurişlemleri2;
+        private Button butGecikmisEmanetler2;
     }
 }
