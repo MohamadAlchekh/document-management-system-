@@ -17,9 +17,6 @@ namespace document_management_system
             InitializeComponent();
         }
 
-        private void butOnayla4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erens\\OneDrive\\Masaüstü\\NYP Projesi\\document-management-system-\\document management system.csproj": {}
+    "C:\\Users\\erens\\OneDrive\\Masaüstü\\rrr\\document management system.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erens\\OneDrive\\Masaüstü\\NYP Projesi\\document-management-system-\\document management system.csproj": {
+    "C:\\Users\\erens\\OneDrive\\Masaüstü\\rrr\\document management system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erens\\OneDrive\\Masaüstü\\NYP Projesi\\document-management-system-\\document management system.csproj",
+        "projectUniqueName": "C:\\Users\\erens\\OneDrive\\Masaüstü\\rrr\\document management system.csproj",
         "projectName": "document management system",
-        "projectPath": "C:\\Users\\erens\\OneDrive\\Masaüstü\\NYP Projesi\\document-management-system-\\document management system.csproj",
+        "projectPath": "C:\\Users\\erens\\OneDrive\\Masaüstü\\rrr\\document management system.csproj",
         "packagesPath": "C:\\Users\\erens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erens\\OneDrive\\Masaüstü\\NYP Projesi\\document-management-system-\\obj\\",
+        "outputPath": "C:\\Users\\erens\\OneDrive\\Masaüstü\\rrr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erens\\AppData\\Roaming\\NuGet\\NuGet.Config",

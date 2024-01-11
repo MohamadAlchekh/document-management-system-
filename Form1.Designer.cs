@@ -146,7 +146,7 @@
             butOnayla1.TabIndex = 8;
             butOnayla1.Text = "Onayla";
             butOnayla1.UseVisualStyleBackColor = false;
-            butOnayla1.Click += butOnayla1_Click;
+            
             // 
             // pictureBox2
             // 
