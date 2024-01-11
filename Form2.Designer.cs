@@ -58,6 +58,7 @@
             butHesapBilgiGüncelle2.TabIndex = 9;
             butHesapBilgiGüncelle2.Text = "Hesap bilgilerimi güncelle";
             butHesapBilgiGüncelle2.UseVisualStyleBackColor = false;
+            butHesapBilgiGüncelle2.Click += butHesapBilgiGüncelle2_Click;
             // 
             // butDosyaTürleri2
             // 
@@ -70,7 +71,7 @@
             butDosyaTürleri2.TabIndex = 10;
             butDosyaTürleri2.Text = "Arşive konulabilecek dosya türleri";
             butDosyaTürleri2.UseVisualStyleBackColor = false;
-            butDosyaTürleri2.Click += butEvrakişlemleri2_Click;
+            butDosyaTürleri2.Click += butDosyaTürleri2_Click;
             // 
             // butMemurişlemleri2
             // 
@@ -96,6 +97,7 @@
             butGecikmisEmanetler2.TabIndex = 12;
             butGecikmisEmanetler2.Text = "Gecikmiş emanetler";
             butGecikmisEmanetler2.UseVisualStyleBackColor = false;
+            butGecikmisEmanetler2.Click += butGecikmisEmanetler2_Click;
             // 
             // Form2
             // 

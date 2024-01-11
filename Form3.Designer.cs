@@ -69,6 +69,7 @@
             butDepEkle3.TabIndex = 26;
             butDepEkle3.Text = "Departman Ekle";
             butDepEkle3.UseVisualStyleBackColor = false;
+            butDepEkle3.Click += butDepEkle3_Click;
             // 
             // butTürBelirle3
             // 
@@ -81,6 +82,7 @@
             butTürBelirle3.TabIndex = 29;
             butTürBelirle3.Text = "Dosya türü belirle";
             butTürBelirle3.UseVisualStyleBackColor = false;
+            butTürBelirle3.Click += butTürBelirle3_Click;
             // 
             // label2
             // 

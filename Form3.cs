@@ -16,5 +16,15 @@ namespace document_management_system
         {
             InitializeComponent();
         }
+
+        private void butTürBelirle3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butDepEkle3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,13 +23,26 @@ namespace document_management_system
             form4.Show();
         }
 
-        private void butEvrakişlemleri2_Click(object sender, EventArgs e)
+
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butHesapBilgiGüncelle2_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.Show();
+        }
+
+        private void butDosyaTürleri2_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3();
             form3.Show();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void butGecikmisEmanetler2_Click(object sender, EventArgs e)
         {
 
         }

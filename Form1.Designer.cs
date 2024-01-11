@@ -39,6 +39,7 @@
             radioButFsekreteri1 = new RadioButton();
             butOnayla1 = new Button();
             pictureBox2 = new PictureBox();
+            checkBox1 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -68,7 +69,7 @@
             // 
             label2.BackColor = SystemColors.Control;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(256, 151);
+            label2.Location = new Point(240, 145);
             label2.Name = "label2";
             label2.Size = new Size(69, 27);
             label2.TabIndex = 2;
@@ -79,7 +80,7 @@
             // 
             label3.BackColor = SystemColors.Control;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(219, 99);
+            label3.Location = new Point(203, 93);
             label3.Name = "label3";
             label3.Size = new Size(106, 30);
             label3.TabIndex = 3;
@@ -89,21 +90,23 @@
             // txtBoxKullAdı1
             // 
             txtBoxKullAdı1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxKullAdı1.Location = new Point(347, 99);
+            txtBoxKullAdı1.Location = new Point(331, 93);
             txtBoxKullAdı1.Multiline = true;
             txtBoxKullAdı1.Name = "txtBoxKullAdı1";
             txtBoxKullAdı1.Size = new Size(140, 30);
             txtBoxKullAdı1.TabIndex = 4;
+            txtBoxKullAdı1.KeyDown += txtBoxKullAdı1_KeyDown;
             // 
             // txtBoxŞifre1
             // 
             txtBoxŞifre1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxŞifre1.Location = new Point(347, 148);
+            txtBoxŞifre1.Location = new Point(331, 142);
             txtBoxŞifre1.Multiline = true;
             txtBoxŞifre1.Name = "txtBoxŞifre1";
             txtBoxŞifre1.PasswordChar = '*';
             txtBoxŞifre1.Size = new Size(140, 30);
             txtBoxŞifre1.TabIndex = 5;
+            txtBoxŞifre1.KeyDown += txtBoxŞifre1_KeyDown;
             // 
             // radioButKullanıcı1
             // 
@@ -149,12 +152,25 @@
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(477, 146);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(60, 19);
+            checkBox1.TabIndex = 39;
+            checkBox1.Text = "Göster";
+            checkBox1.TextAlign = ContentAlignment.TopCenter;
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(786, 305);
+            Controls.Add(checkBox1);
             Controls.Add(radioButKullanıcı1);
             Controls.Add(radioButFsekreteri1);
             Controls.Add(pictureBox2);
@@ -188,5 +204,6 @@
         private RadioButton radioButFsekreteri1;
         private Button butOnayla1;
         private PictureBox pictureBox2;
+        private CheckBox checkBox1;
     }
 }

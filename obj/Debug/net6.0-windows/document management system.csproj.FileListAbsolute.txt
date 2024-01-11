@@ -3,21 +3,6 @@ C:\document management system\bin\Debug\net6.0-windows\document management syste
 C:\document management system\bin\Debug\net6.0-windows\document management system.runtimeconfig.json
 C:\document management system\bin\Debug\net6.0-windows\document management system.dll
 C:\document management system\bin\Debug\net6.0-windows\document management system.pdb
-C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form1.resources
-C:\document management system\obj\Debug\net6.0-windows\document_management_system.Properties.Resources.resources
-C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.GenerateResource.cache
-C:\document management system\obj\Debug\net6.0-windows\document management system.GeneratedMSBuildEditorConfig.editorconfig
-C:\document management system\obj\Debug\net6.0-windows\document management system.AssemblyInfoInputs.cache
-C:\document management system\obj\Debug\net6.0-windows\document management system.AssemblyInfo.cs
-C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.CoreCompileInputs.cache
-C:\document management system\obj\Debug\net6.0-windows\document management system.dll
-C:\document management system\obj\Debug\net6.0-windows\refint\document management system.dll
-C:\document management system\obj\Debug\net6.0-windows\document management system.pdb
-C:\document management system\obj\Debug\net6.0-windows\document management system.genruntimeconfig.cache
-C:\document management system\obj\Debug\net6.0-windows\ref\document management system.dll
-C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form2.resources
-C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form3.resources
-C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form4.resources
 C:\document management system\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
 C:\document management system\bin\Debug\net6.0-windows\Google.Protobuf.dll
 C:\document management system\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
@@ -36,6 +21,21 @@ C:\document management system\bin\Debug\net6.0-windows\runtimes\win-x64\native\k
 C:\document management system\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\document management system\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.AssemblyReference.cache
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form1.resources
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form2.resources
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form3.resources
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form4.resources
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form5.resources
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form6.resources
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Properties.Resources.resources
+C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.GenerateResource.cache
+C:\document management system\obj\Debug\net6.0-windows\document management system.GeneratedMSBuildEditorConfig.editorconfig
+C:\document management system\obj\Debug\net6.0-windows\document management system.AssemblyInfoInputs.cache
+C:\document management system\obj\Debug\net6.0-windows\document management system.AssemblyInfo.cs
+C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.CoreCompileInputs.cache
 C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.CopyComplete
+C:\document management system\obj\Debug\net6.0-windows\document management system.dll
+C:\document management system\obj\Debug\net6.0-windows\refint\document management system.dll
+C:\document management system\obj\Debug\net6.0-windows\document management system.pdb
+C:\document management system\obj\Debug\net6.0-windows\document management system.genruntimeconfig.cache
+C:\document management system\obj\Debug\net6.0-windows\ref\document management system.dll

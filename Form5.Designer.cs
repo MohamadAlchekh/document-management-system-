@@ -30,11 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             label1 = new Label();
-            butOnayla4 = new Button();
+            butOnayla5 = new Button();
             txtBoxŞifreGüncelle5 = new TextBox();
             label2 = new Label();
             txtBoxKullAdıGüncelle5 = new TextBox();
             label8 = new Label();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // label1
@@ -48,17 +49,18 @@
             label1.Text = "Hesap bilgilerimi güncelle";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // butOnayla4
+            // butOnayla5
             // 
-            butOnayla4.BackColor = SystemColors.GradientActiveCaption;
-            butOnayla4.FlatStyle = FlatStyle.Flat;
-            butOnayla4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butOnayla4.Location = new Point(308, 236);
-            butOnayla4.Name = "butOnayla4";
-            butOnayla4.Size = new Size(204, 39);
-            butOnayla4.TabIndex = 37;
-            butOnayla4.Text = "Onayla";
-            butOnayla4.UseVisualStyleBackColor = false;
+            butOnayla5.BackColor = SystemColors.GradientActiveCaption;
+            butOnayla5.FlatStyle = FlatStyle.Flat;
+            butOnayla5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butOnayla5.Location = new Point(308, 236);
+            butOnayla5.Name = "butOnayla5";
+            butOnayla5.Size = new Size(204, 39);
+            butOnayla5.TabIndex = 37;
+            butOnayla5.Text = "Onayla";
+            butOnayla5.UseVisualStyleBackColor = false;
+            butOnayla5.Click += butOnayla5_Click;
             // 
             // txtBoxŞifreGüncelle5
             // 
@@ -69,6 +71,7 @@
             txtBoxŞifreGüncelle5.PasswordChar = '*';
             txtBoxŞifreGüncelle5.Size = new Size(148, 33);
             txtBoxŞifreGüncelle5.TabIndex = 36;
+            txtBoxŞifreGüncelle5.TextChanged += txtBoxŞifreGüncelle5_TextChanged;
             // 
             // label2
             // 
@@ -101,13 +104,26 @@
             label8.Text = "Kullanıcı adı :";
             label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(553, 186);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(60, 19);
+            checkBox1.TabIndex = 38;
+            checkBox1.Text = "Göster";
+            checkBox1.TextAlign = ContentAlignment.TopCenter;
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
-            Controls.Add(butOnayla4);
+            Controls.Add(checkBox1);
+            Controls.Add(butOnayla5);
             Controls.Add(txtBoxŞifreGüncelle5);
             Controls.Add(label2);
             Controls.Add(txtBoxKullAdıGüncelle5);
@@ -116,6 +132,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form5";
             Text = "Hesap bilgilerimi güncelle";
+            Load += Form5_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -123,10 +140,11 @@
         #endregion
 
         private Label label1;
-        private Button butOnayla4;
+        private Button butOnayla5;
         private TextBox txtBoxŞifreGüncelle5;
         private Label label2;
         private TextBox txtBoxKullAdıGüncelle5;
         private Label label8;
+        private CheckBox checkBox1;
     }
 }

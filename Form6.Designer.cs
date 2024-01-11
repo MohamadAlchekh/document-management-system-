@@ -201,7 +201,7 @@
             // 
             label7.BackColor = SystemColors.Control;
             label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(12, 151);
+            label7.Location = new Point(12, 153);
             label7.Name = "label7";
             label7.Size = new Size(125, 23);
             label7.TabIndex = 41;
