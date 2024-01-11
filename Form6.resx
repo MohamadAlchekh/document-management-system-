@@ -117,7 +117,557 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="MemurTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="&gt;&gt;MemurAna.Name" xml:space="preserve">
+    <value>MemurAna</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.Name" xml:space="preserve">
+    <value>bupanel2</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.Name" xml:space="preserve">
+    <value>MemurMenu2</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.Name" xml:space="preserve">
+    <value>MemurEvrak</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.Name" xml:space="preserve">
+    <value>MemurEmanet</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MemurMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MemurMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="MemurMenu.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>265, 1500</value>
+  </data>
+  <data name="MemurMenu.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 633</value>
+  </data>
+  <data name="MemurMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 716</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MemurMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu.Name" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MemurAna.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="MemurAna.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="MemurAna.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MemurAna.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MemurAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 115</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MemurAna.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="MemurAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 86</value>
+  </data>
+  <data name="MemurAna.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="MemurAna.Text" xml:space="preserve">
+    <value>  Ana Sayfa</value>
+  </data>
+  <data name="MemurAna.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MemurAna.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.Name" xml:space="preserve">
+    <value>MemurAna</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurAna.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bupanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="bupanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 87</value>
+  </data>
+  <data name="bupanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.Name" xml:space="preserve">
+    <value>bupanel2</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;bupanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;menuButton.Name" xml:space="preserve">
+    <value>menuButton</value>
+  </data>
+  <data name="&gt;&gt;menuButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuButton.Parent" xml:space="preserve">
+    <value>MemurMenu2</value>
+  </data>
+  <data name="&gt;&gt;menuButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>MemurMenu2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MemurMenu2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MemurMenu2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 114</value>
+  </data>
+  <data name="MemurMenu2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.Name" xml:space="preserve">
+    <value>MemurMenu2</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurMenu2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="menuButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="menuButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 29</value>
+  </data>
+  <data name="menuButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 53</value>
+  </data>
+  <data name="menuButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;menuButton.Name" xml:space="preserve">
+    <value>menuButton</value>
+  </data>
+  <data name="&gt;&gt;menuButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuButton.Parent" xml:space="preserve">
+    <value>MemurMenu2</value>
+  </data>
+  <data name="&gt;&gt;menuButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 32</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Menü</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>MemurMenu2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MemurEvrak.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="MemurEvrak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="MemurEvrak.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MemurEvrak.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MemurEvrak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 211</value>
+  </data>
+  <data name="MemurEvrak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="MemurEvrak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 86</value>
+  </data>
+  <data name="MemurEvrak.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="MemurEvrak.Text" xml:space="preserve">
+    <value>Evrak Ekle</value>
+  </data>
+  <data name="MemurEvrak.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MemurEvrak.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.Name" xml:space="preserve">
+    <value>MemurEvrak</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurEvrak.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MemurEmanet.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="MemurEmanet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="MemurEmanet.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MemurEmanet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MemurEmanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 307</value>
+  </data>
+  <data name="MemurEmanet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="MemurEmanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 92</value>
+  </data>
+  <data name="MemurEmanet.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="MemurEmanet.Text" xml:space="preserve">
+    <value>Emanet Ver</value>
+  </data>
+  <data name="MemurEmanet.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MemurEmanet.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.Name" xml:space="preserve">
+    <value>MemurEmanet</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.Parent" xml:space="preserve">
+    <value>MemurMenu</value>
+  </data>
+  <data name="&gt;&gt;MemurEmanet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.Name" xml:space="preserve">
+    <value>Minbtn2</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.Name" xml:space="preserve">
+    <value>Maxbtn2</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;kapat2.Name" xml:space="preserve">
+    <value>kapat2</value>
+  </data>
+  <data name="&gt;&gt;kapat2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kapat2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;kapat2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1370, 41</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Minbtn2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Minbtn2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Minbtn2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="Minbtn2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DwAACw8BkvkDpQAAAChJREFUSEtjGAWjYBSMAhLBfyoBqHGYACpPMYAaNwpGwSgYBcQBBgYAYIyPcfRA
+        y9oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Minbtn2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Minbtn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1205, 0</value>
+  </data>
+  <data name="Minbtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
+  </data>
+  <data name="Minbtn2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.Name" xml:space="preserve">
+    <value>Minbtn2</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Minbtn2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Maxbtn2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Maxbtn2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Maxbtn2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Maxbtn2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1260, 0</value>
+  </data>
+  <data name="Maxbtn2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
+  </data>
+  <data name="Maxbtn2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.Name" xml:space="preserve">
+    <value>Maxbtn2</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Maxbtn2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="kapat2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="kapat2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="kapat2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="kapat2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1315, 0</value>
+  </data>
+  <data name="kapat2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
+  </data>
+  <data name="kapat2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="kapat2.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;kapat2.Name" xml:space="preserve">
+    <value>kapat2</value>
+  </data>
+  <data name="&gt;&gt;kapat2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kapat2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;kapat2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MemurPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MemurPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 41</value>
+  </data>
+  <data name="MemurPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1105, 716</value>
+  </data>
+  <data name="MemurPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;MemurPanel.Name" xml:space="preserve">
+    <value>MemurPanel</value>
+  </data>
+  <data name="&gt;&gt;MemurPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemurPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MemurPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1370, 757</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAgIAAAAEAIAAoCAEAFgAAACgAAACAAAAAAAEAAAEAIAAAAAAAAAABAJVYAACVWAAAAAAAAAAA
@@ -1249,5 +1799,23 @@
         AAAAAX/////////////9l////9L//////////////kAAAAAF////////////////////////////////
         //////////////////////////////////8=
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Memur</value>
+  </data>
+  <data name="&gt;&gt;MemurTimer.Name" xml:space="preserve">
+    <value>MemurTimer</value>
+  </data>
+  <data name="&gt;&gt;MemurTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form6</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

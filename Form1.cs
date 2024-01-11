@@ -27,9 +27,9 @@ namespace document_management_system
             Con.Open();
             MySqlCommand cmd = Con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from FSlogin where FSusername='"+txtBoxKullAdı1.Text+"' and FSpass='"+txtBoxŞifre1.Text+"'";
+            cmd.CommandText = "select * from FSlogin where FSUsername='" + txtBoxKullAdı1.Text + "' and FSpass='" + txtBoxŞifre1.Text + "'";
             cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable(); 
+            DataTable dt = new DataTable();
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
             da.Fill(dt);
             i = Convert.ToInt32(dt.Rows.Count.ToString());
@@ -43,12 +43,14 @@ namespace document_management_system
             {
                 MessageBox.Show("Lütfen kişi seçin");
             }
-            else if (i==0)
+            else if (i == 0)
             {
                 MessageBox.Show("Girdiğiniz şifre ya da kullanıcı adı yanlıştır");
             }
 
             Con.Close();
         }
+
+
     }
 }

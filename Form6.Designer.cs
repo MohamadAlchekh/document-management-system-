@@ -28,377 +28,183 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
-            label1 = new Label();
-            butOnayla6 = new Button();
-            dateTimePickerGeriVerilecekTarih6 = new DateTimePicker();
-            label5 = new Label();
-            dateTimePickerTarih6 = new DateTimePicker();
-            label4 = new Label();
-            comboBoxDepartman6 = new ComboBox();
-            label3 = new Label();
-            txtBoxSoyAd6 = new TextBox();
-            txtBoxAD6 = new TextBox();
+            MemurTimer = new System.Windows.Forms.Timer(components);
+            MemurMenu = new Panel();
+            MemurAna = new Button();
+            bupanel2 = new Panel();
+            MemurMenu2 = new Panel();
+            menuButton = new PictureBox();
             label2 = new Label();
-            label8 = new Label();
-            label6 = new Label();
-            comboBoxDokumanTuru6 = new ComboBox();
-            label7 = new Label();
-            txtBoxAçıklama6 = new TextBox();
-            label9 = new Label();
-            label10 = new Label();
-            textBoxSoyad6 = new TextBox();
-            textBoxAD6 = new TextBox();
-            label11 = new Label();
-            label12 = new Label();
-            textBoxTelefonNo6 = new TextBox();
-            label15 = new Label();
-            textBoxTcNo6 = new TextBox();
-            label16 = new Label();
-            buttonOnayla6 = new Button();
+            MemurEvrak = new Button();
+            MemurEmanet = new Button();
+            panel2 = new Panel();
+            Minbtn2 = new Button();
+            Maxbtn2 = new Button();
+            kapat2 = new Button();
+            MemurPanel = new Panel();
+            MemurMenu.SuspendLayout();
+            MemurMenu2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)menuButton).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // MemurTimer
             // 
-            label1.BackColor = SystemColors.Control;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            label1.Location = new Point(317, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(144, 42);
-            label1.TabIndex = 4;
-            label1.Text = "Memur";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            MemurTimer.Interval = 10;
+            MemurTimer.Tick += MemurTimer_Tick;
             // 
-            // butOnayla6
+            // MemurMenu
             // 
-            butOnayla6.BackColor = SystemColors.GradientActiveCaption;
-            butOnayla6.FlatStyle = FlatStyle.Flat;
-            butOnayla6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butOnayla6.Location = new Point(98, 425);
-            butOnayla6.Name = "butOnayla6";
-            butOnayla6.Size = new Size(204, 39);
-            butOnayla6.TabIndex = 39;
-            butOnayla6.Text = "Onayla";
-            butOnayla6.UseVisualStyleBackColor = false;
+            MemurMenu.BackColor = Color.FromArgb(41, 128, 185);
+            MemurMenu.Controls.Add(MemurAna);
+            MemurMenu.Controls.Add(bupanel2);
+            MemurMenu.Controls.Add(MemurMenu2);
+            MemurMenu.Controls.Add(MemurEvrak);
+            MemurMenu.Controls.Add(MemurEmanet);
+            resources.ApplyResources(MemurMenu, "MemurMenu");
+            MemurMenu.Name = "MemurMenu";
             // 
-            // dateTimePickerGeriVerilecekTarih6
+            // MemurAna
             // 
-            dateTimePickerGeriVerilecekTarih6.Location = new Point(647, 281);
-            dateTimePickerGeriVerilecekTarih6.Name = "dateTimePickerGeriVerilecekTarih6";
-            dateTimePickerGeriVerilecekTarih6.Size = new Size(200, 23);
-            dateTimePickerGeriVerilecekTarih6.TabIndex = 35;
+            MemurAna.BackColor = Color.FromArgb(41, 128, 185);
+            MemurAna.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(MemurAna, "MemurAna");
+            MemurAna.ForeColor = Color.White;
+            MemurAna.Image = Properties.Resources.home__2_;
+            MemurAna.Name = "MemurAna";
+            MemurAna.UseVisualStyleBackColor = false;
+            MemurAna.Click += MemurAna_Click;
             // 
-            // label5
+            // bupanel2
             // 
-            label5.BackColor = SystemColors.Control;
-            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(476, 280);
-            label5.Name = "label5";
-            label5.Size = new Size(143, 29);
-            label5.TabIndex = 34;
-            label5.Text = "Geri verilecek tarih :";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
+            bupanel2.BackColor = Color.FromArgb(51, 52, 78);
+            resources.ApplyResources(bupanel2, "bupanel2");
+            bupanel2.Name = "bupanel2";
             // 
-            // dateTimePickerTarih6
+            // MemurMenu2
             // 
-            dateTimePickerTarih6.Location = new Point(158, 244);
-            dateTimePickerTarih6.Name = "dateTimePickerTarih6";
-            dateTimePickerTarih6.Size = new Size(200, 23);
-            dateTimePickerTarih6.TabIndex = 33;
+            MemurMenu2.BackColor = Color.FromArgb(81, 116, 148);
+            MemurMenu2.Controls.Add(menuButton);
+            MemurMenu2.Controls.Add(label2);
+            resources.ApplyResources(MemurMenu2, "MemurMenu2");
+            MemurMenu2.Name = "MemurMenu2";
             // 
-            // label4
+            // menuButton
             // 
-            label4.BackColor = SystemColors.Control;
-            label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(72, 244);
-            label4.Name = "label4";
-            label4.Size = new Size(65, 23);
-            label4.TabIndex = 32;
-            label4.Text = "Tarih :";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // comboBoxDepartman6
-            // 
-            comboBoxDepartman6.FormattingEnabled = true;
-            comboBoxDepartman6.Items.AddRange(new object[] { "YBS", "İşletme", "UAT" });
-            comboBoxDepartman6.Location = new Point(158, 196);
-            comboBoxDepartman6.Name = "comboBoxDepartman6";
-            comboBoxDepartman6.Size = new Size(200, 23);
-            comboBoxDepartman6.TabIndex = 31;
-            // 
-            // label3
-            // 
-            label3.BackColor = SystemColors.Control;
-            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(42, 196);
-            label3.Name = "label3";
-            label3.Size = new Size(95, 23);
-            label3.TabIndex = 30;
-            label3.Text = "Departman :";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // txtBoxSoyAd6
-            // 
-            txtBoxSoyAd6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxSoyAd6.Location = new Point(158, 106);
-            txtBoxSoyAd6.Multiline = true;
-            txtBoxSoyAd6.Name = "txtBoxSoyAd6";
-            txtBoxSoyAd6.Size = new Size(144, 31);
-            txtBoxSoyAd6.TabIndex = 29;
-            // 
-            // txtBoxAD6
-            // 
-            txtBoxAD6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxAD6.Location = new Point(158, 69);
-            txtBoxAD6.Multiline = true;
-            txtBoxAD6.Name = "txtBoxAD6";
-            txtBoxAD6.Size = new Size(144, 31);
-            txtBoxAD6.TabIndex = 28;
+            menuButton.Cursor = Cursors.Hand;
+            menuButton.Image = Properties.Resources.icons8_menu_50;
+            resources.ApplyResources(menuButton, "menuButton");
+            menuButton.Name = "menuButton";
+            menuButton.TabStop = false;
+            menuButton.Click += menuButton_Click;
             // 
             // label2
             // 
-            label2.BackColor = SystemColors.Control;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(72, 106);
+            resources.ApplyResources(label2, "label2");
+            label2.ForeColor = Color.White;
             label2.Name = "label2";
-            label2.Size = new Size(65, 32);
-            label2.TabIndex = 27;
-            label2.Text = "Soyad :";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // MemurEvrak
             // 
-            label8.BackColor = SystemColors.Control;
-            label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(72, 69);
-            label8.Name = "label8";
-            label8.Size = new Size(65, 31);
-            label8.TabIndex = 26;
-            label8.Text = "Ad :";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
+            MemurEvrak.BackColor = Color.FromArgb(41, 128, 185);
+            MemurEvrak.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(MemurEvrak, "MemurEvrak");
+            MemurEvrak.ForeColor = Color.White;
+            MemurEvrak.Image = Properties.Resources.add_document;
+            MemurEvrak.Name = "MemurEvrak";
+            MemurEvrak.UseVisualStyleBackColor = false;
+            MemurEvrak.Click += MemurEvrak_Click;
             // 
-            // label6
+            // MemurEmanet
             // 
-            label6.BackColor = SystemColors.Control;
-            label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label6.Location = new Point(61, 11);
-            label6.Name = "label6";
-            label6.Size = new Size(193, 43);
-            label6.TabIndex = 40;
-            label6.Text = "Arşive evrak eklemek";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
+            MemurEmanet.BackColor = Color.FromArgb(41, 128, 185);
+            MemurEmanet.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(MemurEmanet, "MemurEmanet");
+            MemurEmanet.ForeColor = Color.White;
+            MemurEmanet.Image = Properties.Resources.information;
+            MemurEmanet.Name = "MemurEmanet";
+            MemurEmanet.UseVisualStyleBackColor = false;
+            MemurEmanet.Click += MemurEmanet_Click;
             // 
-            // comboBoxDokumanTuru6
+            // panel2
             // 
-            comboBoxDokumanTuru6.FormattingEnabled = true;
-            comboBoxDokumanTuru6.Items.AddRange(new object[] { "YBS", "İşletme", "UAT" });
-            comboBoxDokumanTuru6.Location = new Point(158, 153);
-            comboBoxDokumanTuru6.Name = "comboBoxDokumanTuru6";
-            comboBoxDokumanTuru6.Size = new Size(200, 23);
-            comboBoxDokumanTuru6.TabIndex = 42;
+            panel2.BackColor = Color.FromArgb(51, 52, 78);
+            panel2.Controls.Add(Minbtn2);
+            panel2.Controls.Add(Maxbtn2);
+            panel2.Controls.Add(kapat2);
+            resources.ApplyResources(panel2, "panel2");
+            panel2.Name = "panel2";
             // 
-            // label7
+            // Minbtn2
             // 
-            label7.BackColor = SystemColors.Control;
-            label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(12, 151);
-            label7.Name = "label7";
-            label7.Size = new Size(125, 23);
-            label7.TabIndex = 41;
-            label7.Text = "döküman türü :";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
+            Minbtn2.BackColor = Color.DimGray;
+            resources.ApplyResources(Minbtn2, "Minbtn2");
+            Minbtn2.FlatAppearance.BorderSize = 0;
+            Minbtn2.ForeColor = Color.WhiteSmoke;
+            Minbtn2.Name = "Minbtn2";
+            Minbtn2.UseVisualStyleBackColor = false;
+            Minbtn2.Click += Minbtn2_Click;
             // 
-            // txtBoxAçıklama6
+            // Maxbtn2
             // 
-            txtBoxAçıklama6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxAçıklama6.Location = new Point(158, 291);
-            txtBoxAçıklama6.Multiline = true;
-            txtBoxAçıklama6.Name = "txtBoxAçıklama6";
-            txtBoxAçıklama6.Size = new Size(200, 106);
-            txtBoxAçıklama6.TabIndex = 44;
+            Maxbtn2.BackColor = Color.DimGray;
+            resources.ApplyResources(Maxbtn2, "Maxbtn2");
+            Maxbtn2.FlatAppearance.BorderSize = 0;
+            Maxbtn2.ForeColor = Color.White;
+            Maxbtn2.Image = Properties.Resources.squares__2_2;
+            Maxbtn2.Name = "Maxbtn2";
+            Maxbtn2.UseVisualStyleBackColor = false;
+            Maxbtn2.Click += Maxbtn2_Click;
             // 
-            // label9
+            // kapat2
             // 
-            label9.BackColor = SystemColors.Control;
-            label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(61, 291);
-            label9.Name = "label9";
-            label9.Size = new Size(76, 52);
-            label9.TabIndex = 43;
-            label9.Text = "Açıklama :";
-            label9.TextAlign = ContentAlignment.MiddleCenter;
+            kapat2.BackColor = Color.DimGray;
+            resources.ApplyResources(kapat2, "kapat2");
+            kapat2.FlatAppearance.BorderSize = 0;
+            kapat2.ForeColor = Color.White;
+            kapat2.Name = "kapat2";
+            kapat2.UseVisualStyleBackColor = false;
+            kapat2.Click += kapat2_Click;
             // 
-            // label10
+            // MemurPanel
             // 
-            label10.BackColor = SystemColors.Control;
-            label10.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label10.Location = new Point(573, 11);
-            label10.Name = "label10";
-            label10.Size = new Size(193, 43);
-            label10.TabIndex = 45;
-            label10.Text = "Emanet vermek";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // textBoxSoyad6
-            // 
-            textBoxSoyad6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxSoyad6.Location = new Point(636, 144);
-            textBoxSoyad6.Multiline = true;
-            textBoxSoyad6.Name = "textBoxSoyad6";
-            textBoxSoyad6.Size = new Size(144, 31);
-            textBoxSoyad6.TabIndex = 49;
-            // 
-            // textBoxAD6
-            // 
-            textBoxAD6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxAD6.Location = new Point(636, 107);
-            textBoxAD6.Multiline = true;
-            textBoxAD6.Name = "textBoxAD6";
-            textBoxAD6.Size = new Size(144, 31);
-            textBoxAD6.TabIndex = 48;
-            // 
-            // label11
-            // 
-            label11.BackColor = SystemColors.Control;
-            label11.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(550, 144);
-            label11.Name = "label11";
-            label11.Size = new Size(65, 32);
-            label11.TabIndex = 47;
-            label11.Text = "Soyad :";
-            label11.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label12
-            // 
-            label12.BackColor = SystemColors.Control;
-            label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.Location = new Point(550, 107);
-            label12.Name = "label12";
-            label12.Size = new Size(65, 31);
-            label12.TabIndex = 46;
-            label12.Text = "Ad :";
-            label12.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // textBoxTelefonNo6
-            // 
-            textBoxTelefonNo6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxTelefonNo6.Location = new Point(636, 228);
-            textBoxTelefonNo6.Multiline = true;
-            textBoxTelefonNo6.Name = "textBoxTelefonNo6";
-            textBoxTelefonNo6.Size = new Size(144, 31);
-            textBoxTelefonNo6.TabIndex = 57;
-            // 
-            // label15
-            // 
-            label15.BackColor = SystemColors.Control;
-            label15.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(490, 228);
-            label15.Name = "label15";
-            label15.Size = new Size(125, 32);
-            label15.TabIndex = 56;
-            label15.Text = "Telefon numarası :";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // textBoxTcNo6
-            // 
-            textBoxTcNo6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxTcNo6.Location = new Point(636, 191);
-            textBoxTcNo6.Multiline = true;
-            textBoxTcNo6.Name = "textBoxTcNo6";
-            textBoxTcNo6.Size = new Size(144, 31);
-            textBoxTcNo6.TabIndex = 55;
-            // 
-            // label16
-            // 
-            label16.BackColor = SystemColors.Control;
-            label16.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(550, 191);
-            label16.Name = "label16";
-            label16.Size = new Size(65, 32);
-            label16.TabIndex = 54;
-            label16.Text = "TC NO :";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // buttonOnayla6
-            // 
-            buttonOnayla6.BackColor = SystemColors.GradientActiveCaption;
-            buttonOnayla6.FlatStyle = FlatStyle.Flat;
-            buttonOnayla6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            buttonOnayla6.Location = new Point(562, 339);
-            buttonOnayla6.Name = "buttonOnayla6";
-            buttonOnayla6.Size = new Size(204, 39);
-            buttonOnayla6.TabIndex = 58;
-            buttonOnayla6.Text = "Onayla";
-            buttonOnayla6.UseVisualStyleBackColor = false;
+            resources.ApplyResources(MemurPanel, "MemurPanel");
+            MemurPanel.Name = "MemurPanel";
             // 
             // Form6
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(944, 470);
-            Controls.Add(buttonOnayla6);
-            Controls.Add(textBoxTelefonNo6);
-            Controls.Add(label15);
-            Controls.Add(textBoxTcNo6);
-            Controls.Add(label16);
-            Controls.Add(textBoxSoyad6);
-            Controls.Add(textBoxAD6);
-            Controls.Add(label11);
-            Controls.Add(label12);
-            Controls.Add(label10);
-            Controls.Add(txtBoxAçıklama6);
-            Controls.Add(label9);
-            Controls.Add(comboBoxDokumanTuru6);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(butOnayla6);
-            Controls.Add(dateTimePickerGeriVerilecekTarih6);
-            Controls.Add(label5);
-            Controls.Add(dateTimePickerTarih6);
-            Controls.Add(label4);
-            Controls.Add(comboBoxDepartman6);
-            Controls.Add(label3);
-            Controls.Add(txtBoxSoyAd6);
-            Controls.Add(txtBoxAD6);
-            Controls.Add(label2);
-            Controls.Add(label8);
-            Controls.Add(label1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            Controls.Add(MemurPanel);
+            Controls.Add(MemurMenu);
+            Controls.Add(panel2);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form6";
-            Text = "Memur";
+            MemurMenu.ResumeLayout(false);
+            MemurMenu2.ResumeLayout(false);
+            MemurMenu2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)menuButton).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
-        private Button butOnayla6;
-        private DateTimePicker dateTimePickerGeriVerilecekTarih6;
-        private Label label5;
-        private DateTimePicker dateTimePickerTarih6;
-        private Label label4;
-        private ComboBox comboBoxDepartman6;
-        private Label label3;
-        private TextBox txtBoxSoyAd6;
-        private TextBox txtBoxAD6;
+        private System.Windows.Forms.Timer MemurTimer;
+        private Panel MemurMenu;
+        private Button MemurAna;
+        private Panel bupanel2;
+        private Panel MemurMenu2;
+        private PictureBox menuButton;
         private Label label2;
-        private Label label8;
-        private Label label6;
-        private ComboBox comboBoxDokumanTuru6;
-        private Label label7;
-        private TextBox txtBoxAçıklama6;
-        private Label label9;
-        private Label label10;
-        private TextBox textBoxSoyad6;
-        private TextBox textBoxAD6;
-        private Label label11;
-        private Label label12;
-        private TextBox textBoxTelefonNo6;
-        private Label label15;
-        private TextBox textBoxTcNo6;
-        private Label label16;
-        private Button buttonOnayla6;
+        private Button MemurEvrak;
+        private Button MemurEmanet;
+        private Panel panel2;
+        private Button Minbtn2;
+        private Button Maxbtn2;
+        private Button kapat2;
+        private Panel MemurPanel;
     }
 }
