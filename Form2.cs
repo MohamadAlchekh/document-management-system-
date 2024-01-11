@@ -23,12 +23,11 @@ namespace document_management_system
             form4.Show();
         }
 
-
+        string maymun = "eren";
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            //malzeme işlemleri butonu
-            // aboo
+            
         }
 
         private void butHesapBilgiGüncelle2_Click(object sender, EventArgs e)
