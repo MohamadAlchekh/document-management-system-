@@ -27,7 +27,7 @@ namespace document_management_system
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            //malzeme işlemleri butonu
         }
 
         private void butHesapBilgiGüncelle2_Click(object sender, EventArgs e)
