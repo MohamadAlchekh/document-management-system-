@@ -24,7 +24,7 @@ namespace document_management_system
 
         private void butDepEkle3_Click(object sender, EventArgs e)
         {
-
+            Form2 f2 = new Form2();
         }
     }
 }

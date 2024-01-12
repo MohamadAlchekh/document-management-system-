@@ -34,6 +34,8 @@
             butDepEkle3 = new Button();
             butTürBelirle3 = new Button();
             label2 = new Label();
+            textBoxAD6 = new TextBox();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -53,7 +55,7 @@
             label7.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label7.Location = new Point(510, 117);
             label7.Name = "label7";
-            label7.Size = new Size(193, 43);
+            label7.Size = new Size(204, 43);
             label7.TabIndex = 23;
             label7.Text = "Departman işlemleri";
             label7.TextAlign = ContentAlignment.MiddleCenter;
@@ -63,7 +65,7 @@
             butDepEkle3.BackColor = SystemColors.GradientActiveCaption;
             butDepEkle3.FlatStyle = FlatStyle.Flat;
             butDepEkle3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butDepEkle3.Location = new Point(510, 178);
+            butDepEkle3.Location = new Point(510, 226);
             butDepEkle3.Name = "butDepEkle3";
             butDepEkle3.Size = new Size(204, 39);
             butDepEkle3.TabIndex = 26;
@@ -76,7 +78,7 @@
             butTürBelirle3.BackColor = SystemColors.GradientActiveCaption;
             butTürBelirle3.FlatStyle = FlatStyle.Flat;
             butTürBelirle3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butTürBelirle3.Location = new Point(42, 178);
+            butTürBelirle3.Location = new Point(42, 226);
             butTürBelirle3.Name = "butTürBelirle3";
             butTürBelirle3.Size = new Size(204, 39);
             butTürBelirle3.TabIndex = 29;
@@ -90,10 +92,28 @@
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label2.Location = new Point(42, 117);
             label2.Name = "label2";
-            label2.Size = new Size(193, 43);
+            label2.Size = new Size(204, 43);
             label2.TabIndex = 27;
             label2.Text = "Departman işlemleri";
             label2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // textBoxAD6
+            // 
+            textBoxAD6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxAD6.Location = new Point(510, 180);
+            textBoxAD6.Multiline = true;
+            textBoxAD6.Name = "textBoxAD6";
+            textBoxAD6.Size = new Size(204, 40);
+            textBoxAD6.TabIndex = 49;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(42, 180);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(204, 39);
+            textBox1.TabIndex = 50;
             // 
             // Form3
             // 
@@ -101,6 +121,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
+            Controls.Add(textBoxAD6);
             Controls.Add(butTürBelirle3);
             Controls.Add(label2);
             Controls.Add(butDepEkle3);
@@ -111,6 +133,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Evrak işlemleri";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -120,5 +143,7 @@
         private Button butDepEkle3;
         private Button butTürBelirle3;
         private Label label2;
+        public TextBox textBoxAD6;
+        public TextBox textBox1;
     }
 }

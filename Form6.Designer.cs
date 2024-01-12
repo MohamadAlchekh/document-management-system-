@@ -37,10 +37,6 @@
             label4 = new Label();
             comboBoxDepartman6 = new ComboBox();
             label3 = new Label();
-            txtBoxSoyAd6 = new TextBox();
-            txtBoxAD6 = new TextBox();
-            label2 = new Label();
-            label8 = new Label();
             label6 = new Label();
             comboBoxDokumanTuru6 = new ComboBox();
             label7 = new Label();
@@ -74,7 +70,7 @@
             butOnayla6.BackColor = SystemColors.GradientActiveCaption;
             butOnayla6.FlatStyle = FlatStyle.Flat;
             butOnayla6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butOnayla6.Location = new Point(98, 425);
+            butOnayla6.Location = new Point(98, 360);
             butOnayla6.Name = "butOnayla6";
             butOnayla6.Size = new Size(204, 39);
             butOnayla6.TabIndex = 39;
@@ -83,7 +79,7 @@
             // 
             // dateTimePickerGeriVerilecekTarih6
             // 
-            dateTimePickerGeriVerilecekTarih6.Location = new Point(647, 281);
+            dateTimePickerGeriVerilecekTarih6.Location = new Point(641, 256);
             dateTimePickerGeriVerilecekTarih6.Name = "dateTimePickerGeriVerilecekTarih6";
             dateTimePickerGeriVerilecekTarih6.Size = new Size(200, 23);
             dateTimePickerGeriVerilecekTarih6.TabIndex = 35;
@@ -92,7 +88,7 @@
             // 
             label5.BackColor = SystemColors.Control;
             label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(476, 280);
+            label5.Location = new Point(470, 255);
             label5.Name = "label5";
             label5.Size = new Size(143, 29);
             label5.TabIndex = 34;
@@ -101,7 +97,7 @@
             // 
             // dateTimePickerTarih6
             // 
-            dateTimePickerTarih6.Location = new Point(158, 244);
+            dateTimePickerTarih6.Location = new Point(158, 179);
             dateTimePickerTarih6.Name = "dateTimePickerTarih6";
             dateTimePickerTarih6.Size = new Size(200, 23);
             dateTimePickerTarih6.TabIndex = 33;
@@ -110,7 +106,7 @@
             // 
             label4.BackColor = SystemColors.Control;
             label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(72, 244);
+            label4.Location = new Point(72, 179);
             label4.Name = "label4";
             label4.Size = new Size(65, 23);
             label4.TabIndex = 32;
@@ -121,7 +117,7 @@
             // 
             comboBoxDepartman6.FormattingEnabled = true;
             comboBoxDepartman6.Items.AddRange(new object[] { "YBS", "İşletme", "UAT" });
-            comboBoxDepartman6.Location = new Point(158, 196);
+            comboBoxDepartman6.Location = new Point(158, 131);
             comboBoxDepartman6.Name = "comboBoxDepartman6";
             comboBoxDepartman6.Size = new Size(200, 23);
             comboBoxDepartman6.TabIndex = 31;
@@ -130,52 +126,12 @@
             // 
             label3.BackColor = SystemColors.Control;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(42, 196);
+            label3.Location = new Point(42, 131);
             label3.Name = "label3";
             label3.Size = new Size(95, 23);
             label3.TabIndex = 30;
             label3.Text = "Departman :";
             label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // txtBoxSoyAd6
-            // 
-            txtBoxSoyAd6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxSoyAd6.Location = new Point(158, 106);
-            txtBoxSoyAd6.Multiline = true;
-            txtBoxSoyAd6.Name = "txtBoxSoyAd6";
-            txtBoxSoyAd6.Size = new Size(144, 31);
-            txtBoxSoyAd6.TabIndex = 29;
-            // 
-            // txtBoxAD6
-            // 
-            txtBoxAD6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxAD6.Location = new Point(158, 69);
-            txtBoxAD6.Multiline = true;
-            txtBoxAD6.Name = "txtBoxAD6";
-            txtBoxAD6.Size = new Size(144, 31);
-            txtBoxAD6.TabIndex = 28;
-            // 
-            // label2
-            // 
-            label2.BackColor = SystemColors.Control;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(72, 106);
-            label2.Name = "label2";
-            label2.Size = new Size(65, 32);
-            label2.TabIndex = 27;
-            label2.Text = "Soyad :";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label8
-            // 
-            label8.BackColor = SystemColors.Control;
-            label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(72, 69);
-            label8.Name = "label8";
-            label8.Size = new Size(65, 31);
-            label8.TabIndex = 26;
-            label8.Text = "Ad :";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -192,7 +148,7 @@
             // 
             comboBoxDokumanTuru6.FormattingEnabled = true;
             comboBoxDokumanTuru6.Items.AddRange(new object[] { "YBS", "İşletme", "UAT" });
-            comboBoxDokumanTuru6.Location = new Point(158, 153);
+            comboBoxDokumanTuru6.Location = new Point(158, 88);
             comboBoxDokumanTuru6.Name = "comboBoxDokumanTuru6";
             comboBoxDokumanTuru6.Size = new Size(200, 23);
             comboBoxDokumanTuru6.TabIndex = 42;
@@ -201,7 +157,7 @@
             // 
             label7.BackColor = SystemColors.Control;
             label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(12, 153);
+            label7.Location = new Point(12, 88);
             label7.Name = "label7";
             label7.Size = new Size(125, 23);
             label7.TabIndex = 41;
@@ -211,7 +167,7 @@
             // txtBoxAçıklama6
             // 
             txtBoxAçıklama6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxAçıklama6.Location = new Point(158, 291);
+            txtBoxAçıklama6.Location = new Point(158, 226);
             txtBoxAçıklama6.Multiline = true;
             txtBoxAçıklama6.Name = "txtBoxAçıklama6";
             txtBoxAçıklama6.Size = new Size(200, 106);
@@ -221,7 +177,7 @@
             // 
             label9.BackColor = SystemColors.Control;
             label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(61, 291);
+            label9.Location = new Point(61, 226);
             label9.Name = "label9";
             label9.Size = new Size(76, 52);
             label9.TabIndex = 43;
@@ -242,7 +198,7 @@
             // textBoxSoyad6
             // 
             textBoxSoyad6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxSoyad6.Location = new Point(636, 144);
+            textBoxSoyad6.Location = new Point(630, 119);
             textBoxSoyad6.Multiline = true;
             textBoxSoyad6.Name = "textBoxSoyad6";
             textBoxSoyad6.Size = new Size(144, 31);
@@ -251,7 +207,7 @@
             // textBoxAD6
             // 
             textBoxAD6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxAD6.Location = new Point(636, 107);
+            textBoxAD6.Location = new Point(630, 82);
             textBoxAD6.Multiline = true;
             textBoxAD6.Name = "textBoxAD6";
             textBoxAD6.Size = new Size(144, 31);
@@ -261,7 +217,7 @@
             // 
             label11.BackColor = SystemColors.Control;
             label11.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(550, 144);
+            label11.Location = new Point(544, 119);
             label11.Name = "label11";
             label11.Size = new Size(65, 32);
             label11.TabIndex = 47;
@@ -272,7 +228,7 @@
             // 
             label12.BackColor = SystemColors.Control;
             label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.Location = new Point(550, 107);
+            label12.Location = new Point(544, 82);
             label12.Name = "label12";
             label12.Size = new Size(65, 31);
             label12.TabIndex = 46;
@@ -282,7 +238,7 @@
             // textBoxTelefonNo6
             // 
             textBoxTelefonNo6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxTelefonNo6.Location = new Point(636, 228);
+            textBoxTelefonNo6.Location = new Point(630, 203);
             textBoxTelefonNo6.Multiline = true;
             textBoxTelefonNo6.Name = "textBoxTelefonNo6";
             textBoxTelefonNo6.Size = new Size(144, 31);
@@ -292,7 +248,7 @@
             // 
             label15.BackColor = SystemColors.Control;
             label15.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(490, 228);
+            label15.Location = new Point(484, 203);
             label15.Name = "label15";
             label15.Size = new Size(125, 32);
             label15.TabIndex = 56;
@@ -302,7 +258,7 @@
             // textBoxTcNo6
             // 
             textBoxTcNo6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxTcNo6.Location = new Point(636, 191);
+            textBoxTcNo6.Location = new Point(630, 166);
             textBoxTcNo6.Multiline = true;
             textBoxTcNo6.Name = "textBoxTcNo6";
             textBoxTcNo6.Size = new Size(144, 31);
@@ -312,7 +268,7 @@
             // 
             label16.BackColor = SystemColors.Control;
             label16.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(550, 191);
+            label16.Location = new Point(544, 166);
             label16.Name = "label16";
             label16.Size = new Size(65, 32);
             label16.TabIndex = 54;
@@ -324,7 +280,7 @@
             buttonOnayla6.BackColor = SystemColors.GradientActiveCaption;
             buttonOnayla6.FlatStyle = FlatStyle.Flat;
             buttonOnayla6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            buttonOnayla6.Location = new Point(562, 339);
+            buttonOnayla6.Location = new Point(556, 314);
             buttonOnayla6.Name = "buttonOnayla6";
             buttonOnayla6.Size = new Size(204, 39);
             buttonOnayla6.TabIndex = 58;
@@ -359,10 +315,6 @@
             Controls.Add(label4);
             Controls.Add(comboBoxDepartman6);
             Controls.Add(label3);
-            Controls.Add(txtBoxSoyAd6);
-            Controls.Add(txtBoxAD6);
-            Controls.Add(label2);
-            Controls.Add(label8);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form6";
@@ -381,10 +333,6 @@
         private Label label4;
         private ComboBox comboBoxDepartman6;
         private Label label3;
-        private TextBox txtBoxSoyAd6;
-        private TextBox txtBoxAD6;
-        private Label label2;
-        private Label label8;
         private Label label6;
         private ComboBox comboBoxDokumanTuru6;
         private Label label7;
