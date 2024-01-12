@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace document_management_system
 {
-    public partial class Form3 : Form
+    public partial class Form9 : Form
     {
-        public Form3()
+        public Form9()
         {
             InitializeComponent();
         }

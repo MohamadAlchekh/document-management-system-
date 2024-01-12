@@ -80,3 +80,6 @@ C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-window
 C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-windows\document management system.pdb
 C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-windows\document management system.genruntimeconfig.cache
 C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-windows\ref\document management system.dll
+C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-windows\document_management_system.Form7.resources
+C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-windows\document_management_system.Form8.resources
+C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-windows\document_management_system.Form9.resources
