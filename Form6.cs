@@ -12,10 +12,13 @@ namespace document_management_system
 {
     public partial class Form6 : Form
     {
-        public string Dosyaturu { get; set; }
+
+        public string DosyaTuru { get; set; }
         public Form6()
         {
             InitializeComponent();
         }
+
+       
     }
 }

@@ -16,35 +16,47 @@ namespace document_management_system
         {
             InitializeComponent();
         }
-
-        private void butKullişlemleri2_Click(object sender, EventArgs e)
+        private void loadform(object form)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
+            if (this.mainpanel.Controls.Count > 0)
+                this.mainpanel.Controls.RemoveAt(0);
+            Form fh = form as Form;
+            fh.TopLevel = false;
+            fh.FormBorderStyle = FormBorderStyle.None;
+            fh.Dock = DockStyle.Fill;
+
+
+
+            this.mainpanel.Controls.Add(fh);
+
+            this.mainpanel.Tag = fh;
+            fh.BringToFront();
+            fh.Show();
+
+        }
+        private void FdosyaBtn_Click(object sender, EventArgs e)
+        {
+            loadform(new Form3());
         }
 
-
-
-        private void Form2_Load(object sender, EventArgs e)
+        private void FdepartmanBtn_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void butHesapBilgiGüncelle2_Click(object sender, EventArgs e)
+        private void FmemurBtn_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
-            form5.Show();
+            loadform(new Form4());
         }
 
-        private void butDosyaTürleri2_Click(object sender, EventArgs e)
+        private void FgecikmisBtn_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
+
         }
 
-        private void butGecikmisEmanetler2_Click(object sender, EventArgs e)
+        private void FhesapBtn_Click(object sender, EventArgs e)
         {
-
+            loadform(new Form5());
         }
     }
 }
