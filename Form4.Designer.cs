@@ -50,11 +50,15 @@
             label16 = new Label();
             maskedTextBoxTcNo4 = new MaskedTextBox();
             maskedTextBoxTeleNo4 = new MaskedTextBox();
+            groupBox1 = new GroupBox();
+            checkBox1 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.BackColor = SystemColors.Control;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
             label1.Location = new Point(458, 9);
@@ -66,6 +70,7 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.None;
             label7.BackColor = SystemColors.Control;
             label7.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label7.Location = new Point(152, 35);
@@ -77,6 +82,7 @@
             // 
             // label8
             // 
+            label8.Anchor = AnchorStyles.None;
             label8.BackColor = SystemColors.Control;
             label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(95, 265);
@@ -88,6 +94,7 @@
             // 
             // txtBoxKullAdı4
             // 
+            txtBoxKullAdı4.Anchor = AnchorStyles.None;
             txtBoxKullAdı4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtBoxKullAdı4.Location = new Point(200, 265);
             txtBoxKullAdı4.Multiline = true;
@@ -97,6 +104,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.BackColor = SystemColors.Control;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(126, 304);
@@ -108,6 +116,7 @@
             // 
             // txtBoxŞifre4
             // 
+            txtBoxŞifre4.Anchor = AnchorStyles.None;
             txtBoxŞifre4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtBoxŞifre4.Location = new Point(200, 304);
             txtBoxŞifre4.Multiline = true;
@@ -118,6 +127,7 @@
             // 
             // butOnayla4
             // 
+            butOnayla4.Anchor = AnchorStyles.None;
             butOnayla4.BackColor = SystemColors.GradientActiveCaption;
             butOnayla4.FlatStyle = FlatStyle.Flat;
             butOnayla4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -132,7 +142,7 @@
             // radioButHayır4
             // 
             radioButHayır4.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            radioButHayır4.Location = new Point(304, 354);
+            radioButHayır4.Location = new Point(92, 13);
             radioButHayır4.Name = "radioButHayır4";
             radioButHayır4.Size = new Size(64, 23);
             radioButHayır4.TabIndex = 41;
@@ -144,7 +154,7 @@
             // radioButEvet4
             // 
             radioButEvet4.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            radioButEvet4.Location = new Point(215, 354);
+            radioButEvet4.Location = new Point(3, 13);
             radioButEvet4.Name = "radioButEvet4";
             radioButEvet4.Size = new Size(55, 23);
             radioButEvet4.TabIndex = 40;
@@ -155,6 +165,7 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.None;
             label6.BackColor = SystemColors.Control;
             label6.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(51, 350);
@@ -170,6 +181,7 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
             dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -192,6 +204,7 @@
             // 
             // txtBoxSoyAd4
             // 
+            txtBoxSoyAd4.Anchor = AnchorStyles.None;
             txtBoxSoyAd4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtBoxSoyAd4.Location = new Point(200, 149);
             txtBoxSoyAd4.Multiline = true;
@@ -201,6 +214,7 @@
             // 
             // txtBoxAD4
             // 
+            txtBoxAD4.Anchor = AnchorStyles.None;
             txtBoxAD4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtBoxAD4.Location = new Point(200, 112);
             txtBoxAD4.Multiline = true;
@@ -210,6 +224,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.None;
             label3.BackColor = SystemColors.Control;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(129, 149);
@@ -221,6 +236,7 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.None;
             label4.BackColor = SystemColors.Control;
             label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(129, 112);
@@ -232,6 +248,7 @@
             // 
             // label15
             // 
+            label15.Anchor = AnchorStyles.None;
             label15.BackColor = SystemColors.Control;
             label15.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label15.Location = new Point(69, 223);
@@ -243,6 +260,7 @@
             // 
             // label16
             // 
+            label16.Anchor = AnchorStyles.None;
             label16.BackColor = SystemColors.Control;
             label16.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label16.Location = new Point(129, 185);
@@ -254,6 +272,7 @@
             // 
             // maskedTextBoxTcNo4
             // 
+            maskedTextBoxTcNo4.Anchor = AnchorStyles.None;
             maskedTextBoxTcNo4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             maskedTextBoxTcNo4.Location = new Point(200, 186);
             maskedTextBoxTcNo4.Mask = "00000000000";
@@ -264,6 +283,7 @@
             // 
             // maskedTextBoxTeleNo4
             // 
+            maskedTextBoxTeleNo4.Anchor = AnchorStyles.None;
             maskedTextBoxTeleNo4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             maskedTextBoxTeleNo4.Location = new Point(200, 230);
             maskedTextBoxTeleNo4.Mask = "(000)-000-00-00";
@@ -272,12 +292,38 @@
             maskedTextBoxTeleNo4.Size = new Size(141, 29);
             maskedTextBoxTeleNo4.TabIndex = 63;
             // 
+            // groupBox1
+            // 
+            groupBox1.Anchor = AnchorStyles.None;
+            groupBox1.Controls.Add(radioButHayır4);
+            groupBox1.Controls.Add(radioButEvet4);
+            groupBox1.Location = new Point(200, 343);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(182, 36);
+            groupBox1.TabIndex = 64;
+            groupBox1.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            checkBox1.Anchor = AnchorStyles.None;
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(357, 318);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(60, 19);
+            checkBox1.TabIndex = 65;
+            checkBox1.Text = "Göster";
+            checkBox1.TextAlign = ContentAlignment.TopCenter;
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(1370, 749);
+            Controls.Add(checkBox1);
+            Controls.Add(groupBox1);
             Controls.Add(maskedTextBoxTeleNo4);
             Controls.Add(maskedTextBoxTcNo4);
             Controls.Add(label15);
@@ -287,8 +333,6 @@
             Controls.Add(label3);
             Controls.Add(label4);
             Controls.Add(dataGridView1);
-            Controls.Add(radioButHayır4);
-            Controls.Add(radioButEvet4);
             Controls.Add(label6);
             Controls.Add(butOnayla4);
             Controls.Add(txtBoxŞifre4);
@@ -302,6 +346,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Kullanıcı işlemleri ";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            groupBox1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -328,5 +373,7 @@
         private Label label16;
         private MaskedTextBox maskedTextBoxTcNo4;
         private MaskedTextBox maskedTextBoxTeleNo4;
+        private GroupBox groupBox1;
+        private CheckBox checkBox1;
     }
 }

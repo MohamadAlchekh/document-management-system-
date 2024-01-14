@@ -86,3 +86,5 @@ C:\Users\erens\OneDrive\Masaüstü\NYP Projesi\Ana Proje\obj\Debug\net6.0-window
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form7.resources
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form8.resources
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form9.resources
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form10.resources
+C:\document management system\obj\Debug\net6.0-windows\document_management_system.Form11.resources

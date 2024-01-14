@@ -24,7 +24,7 @@ namespace document_management_system
             da.Fill(dt);
             return dt;
         }
-        public  void AddMemur(string Ad, string SoyAd , string TcNo, string TelefonNo, string Username, string Password, string Yetki)
+        public void AddMemur(string Ad, string SoyAd , string TcNo, string TelefonNo, string Username, string Password, string Yetki)
         {
             MySqlCommand cmd = 
             new MySqlCommand(

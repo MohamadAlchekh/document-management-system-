@@ -40,6 +40,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.BackColor = SystemColors.Control;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
             label1.Location = new Point(266, 9);
@@ -51,6 +52,7 @@
             // 
             // butOnayla5
             // 
+            butOnayla5.Anchor = AnchorStyles.None;
             butOnayla5.BackColor = SystemColors.GradientActiveCaption;
             butOnayla5.FlatStyle = FlatStyle.Flat;
             butOnayla5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -64,6 +66,7 @@
             // 
             // txtBoxŞifreGüncelle5
             // 
+            txtBoxŞifreGüncelle5.Anchor = AnchorStyles.None;
             txtBoxŞifreGüncelle5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtBoxŞifreGüncelle5.Location = new Point(399, 177);
             txtBoxŞifreGüncelle5.Multiline = true;
@@ -75,6 +78,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.BackColor = SystemColors.Control;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(283, 177);
@@ -86,6 +90,7 @@
             // 
             // txtBoxKullAdıGüncelle5
             // 
+            txtBoxKullAdıGüncelle5.Anchor = AnchorStyles.None;
             txtBoxKullAdıGüncelle5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtBoxKullAdıGüncelle5.Location = new Point(399, 125);
             txtBoxKullAdıGüncelle5.Multiline = true;
@@ -95,6 +100,7 @@
             // 
             // label8
             // 
+            label8.Anchor = AnchorStyles.None;
             label8.BackColor = SystemColors.Control;
             label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(283, 125);
@@ -106,6 +112,7 @@
             // 
             // checkBox1
             // 
+            checkBox1.Anchor = AnchorStyles.None;
             checkBox1.AutoSize = true;
             checkBox1.Location = new Point(553, 186);
             checkBox1.Name = "checkBox1";

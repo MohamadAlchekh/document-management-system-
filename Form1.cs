@@ -59,8 +59,8 @@ namespace document_management_system
                     if (CheckLogin(username, password, "Memur_Bilgileri", kullaniciConnectionString))
                     {
                         MessageBox.Show("Kullanıcı giriş başarılı");
-                        Form6 form6 = new Form6();
-                        form6.Show();
+                        Form11 form11 = new Form11();
+                        form11.Show();
                     }
                     else
                     {
@@ -73,7 +73,7 @@ namespace document_management_system
                 }
             }
 
-            
+
         }
 
         private bool CheckLogin(string username, string password, string tableName, string connectionString)
@@ -111,7 +111,7 @@ namespace document_management_system
                 txtBoxŞifre1.UseSystemPasswordChar = false;
         }
 
-        
+
         private void txtBoxKullAdı1_KeyDown(object sender, KeyEventArgs e)
         {
             // Going down when pressing the down arrow key
@@ -132,5 +132,9 @@ namespace document_management_system
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

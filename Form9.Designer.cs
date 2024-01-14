@@ -37,9 +37,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(37, 12);
+            pictureBox1.Location = new Point(26, 7);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(238, 186);
+            pictureBox1.Size = new Size(167, 153);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
@@ -48,21 +49,23 @@
             label3.Anchor = AnchorStyles.Top;
             label3.AutoSize = true;
             label3.Font = new Font("Century Gothic", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(334, 61);
+            label3.Location = new Point(234, 37);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(565, 49);
+            label3.Size = new Size(383, 33);
             label3.TabIndex = 5;
             label3.Text = "Hoşgeldiniz Fakülte Sekreteri";
             // 
             // Form9
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1103, 639);
+            ClientSize = new Size(772, 383);
             Controls.Add(pictureBox1);
             Controls.Add(label3);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form9";
             Text = "Form9";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

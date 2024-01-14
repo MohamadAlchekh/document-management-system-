@@ -23,12 +23,15 @@ namespace document_management_system
             InitializeComponent();
             FillTable();
             dataGridView1.Columns[0].Visible = false;
-            
         }
-        
+
         private void butOnayla4_Click(object sender, EventArgs e)
         {
-            if (txtBoxAD4.Text == "" || txtBoxSoyAd4.Text == "" || txtBoxKullAdı4.Text == "" || txtBoxŞifre4.Text == "" || maskedTextBoxTcNo4.Text == "" || maskedTextBoxTeleNo4.Text == "")
+            if (radioButEvet4.Checked || radioButHayır4.Checked)
+            {
+                groupBox1.Text = " ";
+            }
+            if (txtBoxAD4.Text == "" || txtBoxSoyAd4.Text == "" || txtBoxKullAdı4.Text == "" || txtBoxŞifre4.Text == "" || maskedTextBoxTcNo4.Text == "" || maskedTextBoxTeleNo4.Text == "" || groupBox1.Text == "")
             {
                 MessageBox.Show("Lütfen alanları doldurun");
             }
@@ -60,6 +63,16 @@ namespace document_management_system
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
             this.dataGridView1.ClearSelection();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.CheckState == CheckState.Checked)
+            {
+                txtBoxŞifre4.UseSystemPasswordChar = true;
+            }
+            else
+                txtBoxŞifre4.UseSystemPasswordChar = false;
         }
     }
 }

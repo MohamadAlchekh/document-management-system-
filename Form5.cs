@@ -22,8 +22,16 @@ namespace document_management_system
 
         private void butOnayla5_Click(object sender, EventArgs e)
         {
-            FakulteSekreteri fs = new FakulteSekreteri();
-            fs.UpdateFakulteSekreteriBilgileri(txtBoxKullAdıGüncelle5.Text, txtBoxŞifreGüncelle5.Text);
+
+            if (txtBoxKullAdıGüncelle5.Text == "" || txtBoxŞifreGüncelle5.Text == "")
+            {
+                MessageBox.Show("Lütfen alanları doldurun");
+            }
+            else
+            {
+                FakulteSekreteri fs = new FakulteSekreteri();
+                fs.UpdateFakulteSekreteriBilgileri(txtBoxKullAdıGüncelle5.Text, txtBoxŞifreGüncelle5.Text);
+            }
 
 
         }
@@ -41,7 +49,6 @@ namespace document_management_system
             }
             else
                 txtBoxŞifreGüncelle5.UseSystemPasswordChar = false;
-
         }
 
         private void Form5_Load(object sender, EventArgs e)
