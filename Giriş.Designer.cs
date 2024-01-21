@@ -74,7 +74,6 @@
             txtBoxKullAdı1.Name = "txtBoxKullAdı1";
             txtBoxKullAdı1.Size = new Size(559, 30);
             txtBoxKullAdı1.TabIndex = 4;
-            txtBoxKullAdı1.TextChanged += txtBoxKullAdı1_TextChanged;
             txtBoxKullAdı1.KeyDown += txtBoxKullAdı1_KeyDown;
             // 
             // txtBoxŞifre1

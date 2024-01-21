@@ -59,13 +59,6 @@ namespace document_management_system
             fh.Show();
             CenterControl(fh);
         }
-
-
-
-
-
-
-
         private void MemurTimer_Tick_1(object sender, EventArgs e)
         {
 
@@ -89,28 +82,19 @@ namespace document_management_system
             }
 
         }
-
         private void MemurEvrak_Click(object sender, EventArgs e)
         {
-
             formyukle(new Arşiveevrakeklemek());
             bupanel2.Location = new System.Drawing.Point(0, MemurEvrak.Location.Y);
-
         }
-
-
-
         private void MemurEmanet_Click(object sender, EventArgs e)
         {
-
             formyukle(new EmanetEkleme());
             bupanel2.Location = new System.Drawing.Point(0, MemurEmanet.Location.Y);
-
         }
 
         private void menuButton_Click(object sender, EventArgs e)
         {
-
             if (menubuyut)
             {
                 MemurMenu.Width = MemurMenu.MinimumSize.Width;
@@ -121,14 +105,12 @@ namespace document_management_system
                 MemurMenu.Width = MemurMenu.MaximumSize.Width;
                 menubuyut = true;
             }
-
         }
 
         private void Minbtn_Click(object sender, EventArgs e)
         {
 
             this.WindowState = FormWindowState.Minimized;
-
         }
 
         private void Maxbtn2_Click(object sender, EventArgs e)
@@ -137,14 +119,11 @@ namespace document_management_system
                 if (WindowState == FormWindowState.Normal)
                 {
                     this.WindowState = FormWindowState.Maximized;
-
                 }
                 else
                 {
                     this.WindowState = FormWindowState.Normal;
-
                 }
-
             }
         }
 
