@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="Giriş.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form10.cs">
+    <Compile Update="EmanetEkleme.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form11.cs">
@@ -13,25 +13,28 @@
     <Compile Update="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form3.cs">
+    <Compile Update="DosyaTürleri.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form5.cs">
+    <Compile Update="Hesapbilgilerimigüncelle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form6.cs">
+    <Compile Update="ArşiveEvrakEklemek.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form7.cs">
+    <Compile Update="Departmanİşlemleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form8.cs">
+    <Compile Update="GecikmişEmanetler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form9.cs">
+    <Compile Update="AnaSayfaFS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MemurAna.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

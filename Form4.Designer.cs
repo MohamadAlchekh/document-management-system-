@@ -32,7 +32,6 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             label1 = new Label();
-            label7 = new Label();
             label8 = new Label();
             txtBoxKullAdı4 = new TextBox();
             label2 = new Label();
@@ -52,40 +51,37 @@
             maskedTextBoxTeleNo4 = new MaskedTextBox();
             groupBox1 = new GroupBox();
             checkBox1 = new CheckBox();
+            butGüncelle4 = new Button();
+            butSil4 = new Button();
+            lblId = new Label();
+            textBoxARA4 = new TextBox();
+            labelARA4 = new Label();
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.None;
-            label1.BackColor = SystemColors.Control;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            label1.Location = new Point(458, 9);
+            label1.BackColor = SystemColors.ActiveCaption;
+            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(211, 17);
             label1.Name = "label1";
             label1.Size = new Size(207, 46);
             label1.TabIndex = 2;
-            label1.Text = "Memur işlemleri";
+            label1.Text = "Memur İşlemleri";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            label7.Anchor = AnchorStyles.None;
-            label7.BackColor = SystemColors.Control;
-            label7.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label7.Location = new Point(152, 35);
-            label7.Name = "label7";
-            label7.Size = new Size(210, 53);
-            label7.TabIndex = 24;
-            label7.Text = "Memur Kullanıcı oluştur";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
             label8.Anchor = AnchorStyles.None;
-            label8.BackColor = SystemColors.Control;
+            label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(95, 265);
+            label8.Location = new Point(172, 306);
             label8.Name = "label8";
             label8.Size = new Size(99, 33);
             label8.TabIndex = 25;
@@ -96,7 +92,7 @@
             // 
             txtBoxKullAdı4.Anchor = AnchorStyles.None;
             txtBoxKullAdı4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxKullAdı4.Location = new Point(200, 265);
+            txtBoxKullAdı4.Location = new Point(277, 306);
             txtBoxKullAdı4.Multiline = true;
             txtBoxKullAdı4.Name = "txtBoxKullAdı4";
             txtBoxKullAdı4.Size = new Size(141, 33);
@@ -105,9 +101,9 @@
             // label2
             // 
             label2.Anchor = AnchorStyles.None;
-            label2.BackColor = SystemColors.Control;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(126, 304);
+            label2.Location = new Point(203, 345);
             label2.Name = "label2";
             label2.Size = new Size(68, 33);
             label2.TabIndex = 27;
@@ -118,7 +114,7 @@
             // 
             txtBoxŞifre4.Anchor = AnchorStyles.None;
             txtBoxŞifre4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxŞifre4.Location = new Point(200, 304);
+            txtBoxŞifre4.Location = new Point(277, 345);
             txtBoxŞifre4.Multiline = true;
             txtBoxŞifre4.Name = "txtBoxŞifre4";
             txtBoxŞifre4.PasswordChar = '*';
@@ -128,19 +124,20 @@
             // butOnayla4
             // 
             butOnayla4.Anchor = AnchorStyles.None;
-            butOnayla4.BackColor = SystemColors.GradientActiveCaption;
+            butOnayla4.BackColor = Color.YellowGreen;
             butOnayla4.FlatStyle = FlatStyle.Flat;
             butOnayla4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            butOnayla4.Location = new Point(152, 397);
+            butOnayla4.Location = new Point(128, 468);
             butOnayla4.Name = "butOnayla4";
-            butOnayla4.Size = new Size(204, 39);
+            butOnayla4.Size = new Size(141, 39);
             butOnayla4.TabIndex = 31;
-            butOnayla4.Text = "Onayla";
+            butOnayla4.Text = "Kaydet";
             butOnayla4.UseVisualStyleBackColor = false;
             butOnayla4.Click += butOnayla4_Click;
             // 
             // radioButHayır4
             // 
+            radioButHayır4.Cursor = Cursors.Hand;
             radioButHayır4.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             radioButHayır4.Location = new Point(92, 13);
             radioButHayır4.Name = "radioButHayır4";
@@ -153,6 +150,7 @@
             // 
             // radioButEvet4
             // 
+            radioButEvet4.Cursor = Cursors.Hand;
             radioButEvet4.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             radioButEvet4.Location = new Point(3, 13);
             radioButEvet4.Name = "radioButEvet4";
@@ -166,9 +164,9 @@
             // label6
             // 
             label6.Anchor = AnchorStyles.None;
-            label6.BackColor = SystemColors.Control;
+            label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(51, 350);
+            label6.Location = new Point(128, 391);
             label6.Name = "label6";
             label6.Size = new Size(143, 29);
             label6.TabIndex = 39;
@@ -194,19 +192,20 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dataGridView1.Location = new Point(496, 112);
+            dataGridView1.Location = new Point(40, 77);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(688, 373);
+            dataGridView1.Size = new Size(617, 373);
             dataGridView1.TabIndex = 42;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
             // 
             // txtBoxSoyAd4
             // 
             txtBoxSoyAd4.Anchor = AnchorStyles.None;
             txtBoxSoyAd4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxSoyAd4.Location = new Point(200, 149);
+            txtBoxSoyAd4.Location = new Point(277, 190);
             txtBoxSoyAd4.Multiline = true;
             txtBoxSoyAd4.Name = "txtBoxSoyAd4";
             txtBoxSoyAd4.Size = new Size(141, 31);
@@ -216,7 +215,7 @@
             // 
             txtBoxAD4.Anchor = AnchorStyles.None;
             txtBoxAD4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtBoxAD4.Location = new Point(200, 112);
+            txtBoxAD4.Location = new Point(277, 153);
             txtBoxAD4.Multiline = true;
             txtBoxAD4.Name = "txtBoxAD4";
             txtBoxAD4.Size = new Size(141, 31);
@@ -225,9 +224,9 @@
             // label3
             // 
             label3.Anchor = AnchorStyles.None;
-            label3.BackColor = SystemColors.Control;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(129, 149);
+            label3.Location = new Point(206, 190);
             label3.Name = "label3";
             label3.Size = new Size(65, 32);
             label3.TabIndex = 44;
@@ -237,9 +236,9 @@
             // label4
             // 
             label4.Anchor = AnchorStyles.None;
-            label4.BackColor = SystemColors.Control;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(129, 112);
+            label4.Location = new Point(206, 153);
             label4.Name = "label4";
             label4.Size = new Size(65, 31);
             label4.TabIndex = 43;
@@ -249,9 +248,9 @@
             // label15
             // 
             label15.Anchor = AnchorStyles.None;
-            label15.BackColor = SystemColors.Control;
+            label15.BackColor = Color.Transparent;
             label15.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(69, 223);
+            label15.Location = new Point(146, 264);
             label15.Name = "label15";
             label15.Size = new Size(125, 32);
             label15.TabIndex = 60;
@@ -261,9 +260,9 @@
             // label16
             // 
             label16.Anchor = AnchorStyles.None;
-            label16.BackColor = SystemColors.Control;
+            label16.BackColor = Color.Transparent;
             label16.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.Location = new Point(129, 185);
+            label16.Location = new Point(206, 226);
             label16.Name = "label16";
             label16.Size = new Size(65, 32);
             label16.TabIndex = 58;
@@ -274,7 +273,7 @@
             // 
             maskedTextBoxTcNo4.Anchor = AnchorStyles.None;
             maskedTextBoxTcNo4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            maskedTextBoxTcNo4.Location = new Point(200, 186);
+            maskedTextBoxTcNo4.Location = new Point(277, 227);
             maskedTextBoxTcNo4.Mask = "00000000000";
             maskedTextBoxTcNo4.Name = "maskedTextBoxTcNo4";
             maskedTextBoxTcNo4.RightToLeft = RightToLeft.No;
@@ -285,7 +284,7 @@
             // 
             maskedTextBoxTeleNo4.Anchor = AnchorStyles.None;
             maskedTextBoxTeleNo4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            maskedTextBoxTeleNo4.Location = new Point(200, 230);
+            maskedTextBoxTeleNo4.Location = new Point(277, 271);
             maskedTextBoxTeleNo4.Mask = "(000)-000-00-00";
             maskedTextBoxTeleNo4.Name = "maskedTextBoxTeleNo4";
             maskedTextBoxTeleNo4.RightToLeft = RightToLeft.No;
@@ -297,7 +296,7 @@
             groupBox1.Anchor = AnchorStyles.None;
             groupBox1.Controls.Add(radioButHayır4);
             groupBox1.Controls.Add(radioButEvet4);
-            groupBox1.Location = new Point(200, 343);
+            groupBox1.Location = new Point(277, 384);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(182, 36);
             groupBox1.TabIndex = 64;
@@ -307,7 +306,8 @@
             // 
             checkBox1.Anchor = AnchorStyles.None;
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(357, 318);
+            checkBox1.Cursor = Cursors.Hand;
+            checkBox1.Location = new Point(434, 359);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(60, 19);
             checkBox1.TabIndex = 65;
@@ -316,12 +316,102 @@
             checkBox1.UseVisualStyleBackColor = true;
             checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
+            // butGüncelle4
+            // 
+            butGüncelle4.Anchor = AnchorStyles.None;
+            butGüncelle4.BackColor = SystemColors.GradientActiveCaption;
+            butGüncelle4.FlatStyle = FlatStyle.Flat;
+            butGüncelle4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butGüncelle4.Location = new Point(292, 468);
+            butGüncelle4.Name = "butGüncelle4";
+            butGüncelle4.Size = new Size(141, 39);
+            butGüncelle4.TabIndex = 66;
+            butGüncelle4.Text = "Güncelle";
+            butGüncelle4.UseVisualStyleBackColor = false;
+            butGüncelle4.Click += butGüncelle4_Click;
+            // 
+            // butSil4
+            // 
+            butSil4.Anchor = AnchorStyles.None;
+            butSil4.BackColor = Color.Salmon;
+            butSil4.FlatStyle = FlatStyle.Flat;
+            butSil4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            butSil4.Location = new Point(455, 468);
+            butSil4.Name = "butSil4";
+            butSil4.Size = new Size(141, 39);
+            butSil4.TabIndex = 67;
+            butSil4.Text = "Sil";
+            butSil4.UseVisualStyleBackColor = false;
+            butSil4.Click += butSil4_Click;
+            // 
+            // lblId
+            // 
+            lblId.Anchor = AnchorStyles.None;
+            lblId.BackColor = SystemColors.Control;
+            lblId.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblId.Location = new Point(531, 31);
+            lblId.Name = "lblId";
+            lblId.Size = new Size(65, 32);
+            lblId.TabIndex = 68;
+            lblId.Text = "id";
+            lblId.TextAlign = ContentAlignment.MiddleCenter;
+            lblId.Visible = false;
+            // 
+            // textBoxARA4
+            // 
+            textBoxARA4.Anchor = AnchorStyles.None;
+            textBoxARA4.Location = new Point(98, 22);
+            textBoxARA4.Multiline = true;
+            textBoxARA4.Name = "textBoxARA4";
+            textBoxARA4.Size = new Size(147, 41);
+            textBoxARA4.TabIndex = 69;
+            textBoxARA4.TextChanged += textBoxARA4_TextChanged;
+            // 
+            // labelARA4
+            // 
+            labelARA4.Anchor = AnchorStyles.None;
+            labelARA4.BackColor = Color.Transparent;
+            labelARA4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            labelARA4.ForeColor = Color.Transparent;
+            labelARA4.Location = new Point(40, 22);
+            labelARA4.Name = "labelARA4";
+            labelARA4.Size = new Size(76, 41);
+            labelARA4.TabIndex = 70;
+            labelARA4.Text = "Ara :";
+            labelARA4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(51, 52, 78);
+            panel1.Controls.Add(dataGridView1);
+            panel1.Controls.Add(labelARA4);
+            panel1.Controls.Add(textBoxARA4);
+            panel1.Dock = DockStyle.Right;
+            panel1.Location = new Point(701, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(669, 634);
+            panel1.TabIndex = 71;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(105, 109);
+            pictureBox1.TabIndex = 81;
+            pictureBox1.TabStop = false;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(1370, 749);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(1370, 634);
+            Controls.Add(pictureBox1);
+            Controls.Add(panel1);
+            Controls.Add(lblId);
+            Controls.Add(butSil4);
+            Controls.Add(butGüncelle4);
             Controls.Add(checkBox1);
             Controls.Add(groupBox1);
             Controls.Add(maskedTextBoxTeleNo4);
@@ -332,14 +422,12 @@
             Controls.Add(txtBoxAD4);
             Controls.Add(label3);
             Controls.Add(label4);
-            Controls.Add(dataGridView1);
             Controls.Add(label6);
             Controls.Add(butOnayla4);
             Controls.Add(txtBoxŞifre4);
             Controls.Add(label2);
             Controls.Add(txtBoxKullAdı4);
             Controls.Add(label8);
-            Controls.Add(label7);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form4";
@@ -347,6 +435,9 @@
             Text = "Kullanıcı işlemleri ";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -354,7 +445,6 @@
         #endregion
 
         private Label label1;
-        private Label label7;
         private Label label8;
         private TextBox txtBoxKullAdı4;
         private Label label2;
@@ -375,5 +465,12 @@
         private MaskedTextBox maskedTextBoxTeleNo4;
         private GroupBox groupBox1;
         private CheckBox checkBox1;
+        private Button butGüncelle4;
+        private Button butSil4;
+        private Label lblId;
+        private TextBox textBoxARA4;
+        private Label labelARA4;
+        private Panel panel1;
+        private PictureBox pictureBox1;
     }
 }

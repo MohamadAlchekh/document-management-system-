@@ -19,10 +19,10 @@ namespace document_management_system
         {
             InitializeComponent();
 
-            MemurMenu.MinimumSize = new Size(89, 586);
+            MemurMenu.MinimumSize = new Size(70, 586);
             MemurMenu.Width = MemurMenu.MinimumSize.Width;
             menubuyut = false;
-            bupanel2.Height = MemurAna.Height;
+            bupanel2.Height = MemurEvrak.Height;
 
         }
 
@@ -93,20 +93,17 @@ namespace document_management_system
         private void MemurEvrak_Click(object sender, EventArgs e)
         {
 
-            formyukle(new Form8());
+            formyukle(new Arşiveevrakeklemek());
             bupanel2.Location = new System.Drawing.Point(0, MemurEvrak.Location.Y);
 
         }
 
-        private void MemurAna_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void MemurEmanet_Click(object sender, EventArgs e)
         {
 
-            formyukle(new Form6());
+            formyukle(new EmanetEkleme());
             bupanel2.Location = new System.Drawing.Point(0, MemurEmanet.Location.Y);
 
         }
@@ -179,6 +176,17 @@ namespace document_management_system
         private void panel2_MouseUp(object sender, MouseEventArgs e)
         {
             mouseDown = false;
+        }
+
+        private void MemurAna_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formyukle(new MemurAna());
+            bupanel2.Location = new System.Drawing.Point(0, button1.Location.Y);
         }
     }
 }

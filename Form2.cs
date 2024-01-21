@@ -31,7 +31,7 @@ namespace document_management_system
         {
 
             InitializeComponent();
-            bupanel.Height = butAnasayfa.Height;
+            bupanel.Height = FdosyaBtn.Height;
 
             sidebar.MinimumSize = new Size(89, 582);
             sidebar.Width = sidebar.MinimumSize.Width;
@@ -79,14 +79,14 @@ namespace document_management_system
 
         private void FdosyaBtn_Click(object sender, EventArgs e)
         {
-            loadform(new Form3());
+            loadform(new DosyaTürleri());
             bupanel.Location = new System.Drawing.Point(0, FdosyaBtn.Location.Y);
 
         }
 
         private void FdepartmanBtn_Click(object sender, EventArgs e)
         {
-            loadform(new Form7());
+            loadform(new Departmanİşlemleri());
             bupanel.Location = new System.Drawing.Point(0, FdepartmanBtn.Location.Y);
 
         }
@@ -94,7 +94,7 @@ namespace document_management_system
         private void FgecikmisBtn_Click(object sender, EventArgs e)
         {
 
-            loadform(new Form8());
+            loadform(new GecikmişEmanetler());
 
             bupanel.Location = new System.Drawing.Point(0, FgecikmisBtn.Location.Y);
 
@@ -110,7 +110,7 @@ namespace document_management_system
         private void FhesapBtn_Click(object sender, EventArgs e)
         {
 
-            loadform(new Form5());
+            loadform(new Hesapbilgilerimigüncelle());
             bupanel.Location = new System.Drawing.Point(0, FhesapBtn.Location.Y);
 
         }
@@ -162,17 +162,12 @@ namespace document_management_system
             if (WindowState == FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
-
             }
             else
             {
                 this.WindowState = FormWindowState.Normal;
-
             }
-
-
         }
-
         private void Minbtn_Click_1(object sender, EventArgs e)
         {
 
@@ -196,23 +191,22 @@ namespace document_management_system
 
         private void panel2_MouseMove_1(object sender, MouseEventArgs e)
         {
-
-
             if (mouseDown)
             {
                 this.Location = new Point(
                     (this.Location.X - lastLocation.X) + e.X, (this.Location.Y - lastLocation.Y) + e.Y);
-
                 this.Update();
             }
-
-
         }
-
         private void panel2_MouseUp_1(object sender, MouseEventArgs e)
         {
-
             mouseDown = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            loadform(new AnaSayfaFS());
+            bupanel.Location = new System.Drawing.Point(0, button1.Location.Y);
 
         }
     }

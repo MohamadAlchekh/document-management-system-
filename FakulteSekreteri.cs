@@ -15,7 +15,7 @@ namespace document_management_system
 {
     internal class FakulteSekreteri
     {
-        Form5 form5= new Form5();
+        Hesapbilgilerimigüncelle form5= new Hesapbilgilerimigüncelle();
 
         public void UpdateFakulteSekreteriBilgileri(string newUsername, string newPassword)
         {
