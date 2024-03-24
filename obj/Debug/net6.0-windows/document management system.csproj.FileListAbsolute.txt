@@ -29,7 +29,6 @@ C:\document management system\obj\Debug\net6.0-windows\document management syste
 C:\document management system\obj\Debug\net6.0-windows\document management system.AssemblyInfoInputs.cache
 C:\document management system\obj\Debug\net6.0-windows\document management system.AssemblyInfo.cs
 C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.CoreCompileInputs.cache
-C:\document management system\obj\Debug\net6.0-windows\document management system.csproj.CopyComplete
 C:\document management system\obj\Debug\net6.0-windows\document management system.dll
 C:\document management system\obj\Debug\net6.0-windows\refint\document management system.dll
 C:\document management system\obj\Debug\net6.0-windows\document management system.pdb
@@ -89,3 +88,53 @@ C:\document management system\obj\Debug\net6.0-windows\document_management_syste
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Giriş.resources
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.Hesapbilgilerimigüncelle.resources
 C:\document management system\obj\Debug\net6.0-windows\document_management_system.MemurAna.resources
+C:\document management system\obj\Debug\net6.0-windows\document management system.sourcelink.json
+C:\document management system\obj\Debug\net6.0-windows\document.64EA1330.Up2Date
+C:\document management system\Project\bin\Debug\net6.0-windows\document management system.exe
+C:\document management system\Project\bin\Debug\net6.0-windows\document management system.deps.json
+C:\document management system\Project\bin\Debug\net6.0-windows\document management system.runtimeconfig.json
+C:\document management system\Project\bin\Debug\net6.0-windows\document management system.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\document management system.pdb
+C:\document management system\Project\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\document management system\Project\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.csproj.AssemblyReference.cache
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.AnaSayfaFS.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Arşiveevrakeklemek.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Departmanİşlemleri.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.DosyaTürleri.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.EmanetEkleme.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Form11.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Form2.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Form4.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.GecikmişEmanetler.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Giriş.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Hesapbilgilerimigüncelle.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.MemurAna.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document_management_system.Properties.Resources.resources
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.csproj.GenerateResource.cache
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.GeneratedMSBuildEditorConfig.editorconfig
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.AssemblyInfoInputs.cache
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.AssemblyInfo.cs
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.csproj.CoreCompileInputs.cache
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.sourcelink.json
+C:\document management system\Project\obj\Debug\net6.0-windows\document.64EA1330.Up2Date
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.dll
+C:\document management system\Project\obj\Debug\net6.0-windows\refint\document management system.dll
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.pdb
+C:\document management system\Project\obj\Debug\net6.0-windows\document management system.genruntimeconfig.cache
+C:\document management system\Project\obj\Debug\net6.0-windows\ref\document management system.dll

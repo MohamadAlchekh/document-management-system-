@@ -25,15 +25,6 @@ namespace document_management_system
             bupanel2.Height = MemurEvrak.Height;
 
         }
-
-
-        //public void SetUserInformation(string Ad, string Soyad)
-        //{
-        //    // Assuming you have a label named lblUserName on Form6
-        //    lblUserName.Text = $"Hoş geldiniz {Ad} {Soyad}";
-        //}
-
-
         private void CenterControl(Control control)
         {
             control.Location = new Point(
