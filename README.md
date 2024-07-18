@@ -36,10 +36,10 @@ An intuitive interface ensures that users can easily navigate and perform their 
 **Developers:**
 
 - Mohamad Alchekh (me)
-- Eren Şişman [RenGeyigi]
+- Eren Şişman [RenGeyigi](https://github.com/RenGeyigi)
 
 **Team Members Who Contributed:**
-- Umut Aksoy [umutaksoy99]
+- Umut Aksoy [umutaksoy99](https://github.com/umutaksoy99))
 
 ## Contributions
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
