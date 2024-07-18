@@ -283,7 +283,7 @@
             // menuButton
             // 
             menuButton.Cursor = Cursors.Hand;
-            menuButton.Image = Properties.Resources.menu__1_;
+            menuButton.Image = Properties.Resources.menu1;
             menuButton.Location = new Point(25, 7);
             menuButton.Margin = new Padding(2);
             menuButton.Name = "menuButton";
@@ -385,7 +385,6 @@
             Minbtn.FlatStyle = FlatStyle.Flat;
             Minbtn.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             Minbtn.ForeColor = Color.WhiteSmoke;
-            Minbtn.Image = Properties.Resources.icons8_minus_241;
             Minbtn.Location = new Point(1071, 0);
             Minbtn.Margin = new Padding(2);
             Minbtn.Name = "Minbtn";

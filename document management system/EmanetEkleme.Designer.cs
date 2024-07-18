@@ -552,7 +552,7 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.Image = Properties.Resources.icons8_menu;
+           // pictureBox1.Image = Properties.Resources.icons8_menu;
             pictureBox1.Location = new Point(567, 6);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(62, 50);

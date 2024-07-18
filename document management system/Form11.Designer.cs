@@ -35,7 +35,6 @@
             MemurEmanet = new Button();
             bupanel2 = new Panel();
             panel3 = new Panel();
-            menuButton = new PictureBox();
             label2 = new Label();
             MemurEvrak = new Button();
             panel2 = new Panel();
@@ -49,12 +48,13 @@
             label3 = new Label();
             pictureBox1 = new PictureBox();
             MemurTimer = new System.Windows.Forms.Timer(components);
+            pictureBox2 = new PictureBox();
             MemurMenu.SuspendLayout();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)menuButton).BeginInit();
             panel2.SuspendLayout();
             MemurPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // MemurMenu
@@ -124,25 +124,13 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(81, 116, 148);
-            panel3.Controls.Add(menuButton);
+            panel3.Controls.Add(pictureBox2);
             panel3.Controls.Add(label2);
             panel3.Location = new Point(0, 0);
             panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
             panel3.Size = new Size(210, 68);
             panel3.TabIndex = 1;
-            // 
-            // menuButton
-            // 
-            menuButton.Cursor = Cursors.Hand;
-            menuButton.Image = Properties.Resources.icons8_menu_50;
-            menuButton.Location = new Point(11, 10);
-            menuButton.Margin = new Padding(2);
-            menuButton.Name = "menuButton";
-            menuButton.Size = new Size(49, 53);
-            menuButton.TabIndex = 14;
-            menuButton.TabStop = false;
-            menuButton.Click += menuButton_Click;
             // 
             // label2
             // 
@@ -315,6 +303,17 @@
             MemurTimer.Interval = 10;
             MemurTimer.Tick += MemurTimer_Tick_1;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = Properties.Resources.menu1;
+            pictureBox2.Location = new Point(24, 10);
+            pictureBox2.Margin = new Padding(2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(53, 50);
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
             // Form11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -330,11 +329,11 @@
             MemurMenu.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)menuButton).EndInit();
             panel2.ResumeLayout(false);
             MemurPanel.ResumeLayout(false);
             MemurPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -344,7 +343,6 @@
         private Button MemurEmanet;
         private Panel bupanel2;
         private Panel panel3;
-        private PictureBox menuButton;
         private Label label2;
         private Button MemurEvrak;
         private Panel panel2;
@@ -359,5 +357,6 @@
         private Label label8;
         private Label label1;
         private Button button1;
+        private PictureBox pictureBox2;
     }
 }

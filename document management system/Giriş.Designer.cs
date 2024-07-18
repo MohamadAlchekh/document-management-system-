@@ -128,7 +128,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.padlock__1_;
+//            pictureBox2.Image = Properties.Resources.padlock__1_;
             pictureBox2.Location = new Point(19, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(40, 41);

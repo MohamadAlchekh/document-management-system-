@@ -12,12 +12,9 @@ namespace document_management_system
 {
     public partial class Form2 : Form
     {
-
         bool sidebarExpand = true;
         private bool mouseDown;
         private Point lastLocation;
-
-
         private void Form2_Load(object sender, EventArgs e)
         {
             // Standart başlık çubuğundaki minimize, maximize ve kapatma düğmelerini gizleme
@@ -37,9 +34,6 @@ namespace document_management_system
             sidebar.Width = sidebar.MinimumSize.Width;
             sidebarExpand = false;
 
-            //this.Text = string.Empty;
-            //this.ControlBox = false;
-
         }
         private void CenterControl(Control control)
         {
@@ -56,15 +50,10 @@ namespace document_management_system
             fh.TopLevel = false;
             fh.FormBorderStyle = FormBorderStyle.None;
             fh.Dock = DockStyle.Fill;
-
-
-
             this.mainpanel.Controls.Add(fh);
-
             this.mainpanel.Tag = fh;
             fh.BringToFront();
             fh.Show();
-
         }
 
 
@@ -74,50 +63,40 @@ namespace document_management_system
         {
             //loadform(new Form10());
             //bupanel.Location = new System.Drawing.Point(0, butAnasayfa.Location.Y);
-
         }
 
         private void FdosyaBtn_Click(object sender, EventArgs e)
         {
             loadform(new DosyaTürleri());
             bupanel.Location = new System.Drawing.Point(0, FdosyaBtn.Location.Y);
-
         }
 
         private void FdepartmanBtn_Click(object sender, EventArgs e)
         {
             loadform(new Departmanİşlemleri());
             bupanel.Location = new System.Drawing.Point(0, FdepartmanBtn.Location.Y);
-
         }
 
         private void FgecikmisBtn_Click(object sender, EventArgs e)
         {
-
             loadform(new GecikmişEmanetler());
-
             bupanel.Location = new System.Drawing.Point(0, FgecikmisBtn.Location.Y);
-
         }
 
         private void FmemurBtn_Click(object sender, EventArgs e)
         {
             loadform(new Form4());
             bupanel.Location = new System.Drawing.Point(0, FmemurBtn.Location.Y);
-
         }
 
         private void FhesapBtn_Click(object sender, EventArgs e)
         {
-
             loadform(new Hesapbilgilerimigüncelle());
             bupanel.Location = new System.Drawing.Point(0, FhesapBtn.Location.Y);
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             if (sidebarExpand)
             {
                 sidebar.Width -= 10;
@@ -136,13 +115,10 @@ namespace document_management_system
                     }
                 }
             }
-
         }
 
         private void menuButton_Click_1(object sender, EventArgs e)
         {
-
-
             if (sidebarExpand)
             {
                 sidebar.Width = sidebar.MinimumSize.Width;
@@ -153,12 +129,10 @@ namespace document_management_system
                 sidebar.Width = sidebar.MaximumSize.Width;
                 sidebarExpand = true;
             }
-
         }
 
         private void Maxbtn2_Click(object sender, EventArgs e)
         {
-
             if (WindowState == FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
@@ -170,21 +144,16 @@ namespace document_management_system
         }
         private void Minbtn_Click_1(object sender, EventArgs e)
         {
-
             this.WindowState = FormWindowState.Minimized;
-
         }
 
         private void kapat_Click_1(object sender, EventArgs e)
         {
-
             Application.Exit();
-
         }
 
         private void panel2_MouseDown_1(object sender, MouseEventArgs e)
         {
-
             mouseDown = true;
             lastLocation = e.Location;
         }
@@ -207,7 +176,6 @@ namespace document_management_system
         {
             loadform(new AnaSayfaFS());
             bupanel.Location = new System.Drawing.Point(0, button1.Location.Y);
-
         }
     }
 }
