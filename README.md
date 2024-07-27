@@ -4,6 +4,8 @@ This desktop application is designed to streamline the management of university 
 
 **This project won first place among all projects at our department.**
 
+![Log-in image](images/log-in.png)
+
 ## User Roles
 **The system caters to two main users: the faculty secretary and university staff.**
 
