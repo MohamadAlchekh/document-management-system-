@@ -1,10 +1,13 @@
 # Document-Management-System
+<div id="top"></div>
+
 # Overview
-This desktop application is designed to streamline the management of university document archives. It keeps track of documents without storing the actual files, maintaining information such as who left or took a document, the dates of these events, the location within the archive, and the relevant department..
+This desktop application is designed to streamline the management of university document archives. It keeps track of documents without storing the actual files, maintaining information such as who left or took a document, the dates of these events, the location within the archive, and the relevant department.
 
 **This project won first place among all projects at our department.**
 
 ![Log-in image](images/log-in.png)
+<p align="right">(<a href="#top">Return To The Beginning</a>)</p>
 
 ## User Roles
 **The system caters to two main users: the faculty secretary and university staff.**
@@ -24,15 +27,24 @@ This desktop application is designed to streamline the management of university 
 - Document Management: Staff can add, delete, and update documents, including detailed information such as the person who added the document, the date added, and the reason for adding etc.
 - Trust Management: Staff can manage trusts, including adding information about who gave the trust, the reason for giving it, the date given, and when it will be retrieved.
 
+<p align="right">(<a href="#top">Return To The Beginning</a>)</p>
+
 ## Key Features
 **Search and Retrieval:**
 Powerful search functionality allows users to quickly find documents using keywords, tags, or metadata, reducing time spent on document retrieval.
 
-**ecure Access:**
+**Secure Access:**
 Role-based access control ensures that only authorized users can view or edit documents, enhancing security and compliance.
 
 **User-Friendly Interface:**
 An intuitive interface ensures that users can easily navigate and perform their tasks, minimizing the learning curve.
+
+<p align="right">(<a href="#top">Return To The Beginning</a>)</p>
+
+## Images
+For a visual overview, you can explore the images here [images folder](https://github.com/MohamadAlchekh/document-management-system-/tree/main/images).
+
+<p align="right">(<a href="#top">Return To The Beginning</a>)</p>
 
 ## Development Team
 **Developers:**
@@ -43,5 +55,10 @@ An intuitive interface ensures that users can easily navigate and perform their 
 **Team Members Who Contributed:**
 - Umut Aksoy [umutaksoy99](https://github.com/umutaksoy99)
 
+<p align="right">(<a href="#top">Return To The Beginning</a>)</p>
+
 ## Contributions
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
+
+<p align="right">(<a href="#top">Return To The Beginning</a>)</p>
+
